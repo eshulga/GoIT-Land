@@ -7,46 +7,47 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="wrapper-head">
-    <img src="img/computer.png" alt="Error" class="comp">
+<header class="header">
     <div class="container">
-        <div class="row wrapper-first no-gutters">
-            <div class="col-xl-10">
-                <a href="http://fe.new.goit.ua/"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
-            </div>
-            <div class="col-xl-2 numb">
-                <a href="tel:" class="phone-number">+7 (123) 456-78-90</a>
-            </div>
+        <div class="row no-gutters header__row">
+                <div class="col-9">
+                    <a href="http://fe.new.goit.ua/" class="logo"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
+                </div>
+                <div class="col-3">
+                    <a href="tel:" class="phone-number">+7 (123) 456-78-90</a>
+                </div>
         </div>
-        <div class="row wrapper-second justify-content-around no-gutters">
-            <div class="col-xl-7">
-                <p>/ Хочешь заработать <span>больше денег</span>?</p>
-                <p>/ Хочешь <span>интересную работу</span> с <br> бесконечным карьерным ростом?</p>
-                <p>/ Давно задумывался о старте<br> в IT, но <span>не знал с чего начать?</span>?</p>
+        <div class="row no-gutters">
+            <div class="col-7">
+                <div class="header__item">
+                    <p>/ Хочешь заработать <span>больше денег</span>?</p>
+                    <p>/ Хочешь <span>интересную работу</span> с <br> бесконечным карьерным ростом?</p>
+                    <p>/ Давно задумывался о старте<br> в IT, но <span>не знал с чего начать?</span></p>
+                </div>
+                <div class="header__item">
+                    <p class="text-orange">ТОГДА ДЛЯ ТЕБЯ ОНЛАЙН МАСТЕР-КЛАС</p>
+                    <h2 class="text-white-huge">САЙТ ЗА 2 ВЕЧЕРА <br> СВОИМИ РУКАМИ <br> БЕЗ ЗНАНИЙ В IT</h2>
+                    <p class="text-white-huge">[ 30+ ]</p>
+                </div>
             </div>
-            <div class="col-xl-5">
-                <p class="text-white ">Как без знаний программирования <br> и математического склада ума <span>за <br> выходные</span> создать сайт, аналоги
-                    <br> которого легко продать за <span>$300</span></p>
-                <p>[ для тех, кто давно хотел начать <br> зарабатывать в IT, но не знал с <br> чего начать ]</p>
-            </div>
-        </div>
-        <div class="row wrapper-last justify-content-around no-gutters">
-            <div class="col-xl-7">
-                <p class="text-orange">ТОГДА ДЛЯ ТЕБЯ ОНЛАЙН МАСТЕР-КЛАС</p>
-                <h2 class="text-white-huge">САЙТ ЗА 2 ВЕЧЕРА <br> СВОИМИ РУКАМИ <br> БЕЗ ЗНАНИЙ В IT</h2>
-                <p class="text-white-huge">[ 30+ ]</p>
-            </div>
-            <div class="col-xl-5">
-                <p class="text-white-smaller">20 ЯНВАРЯ 20:00 МСК</p>
-                <span class="bgc-white">Участие <span>БЕСПЛАТНО</span> для первых <br> 613 зарегистрировавшихся. <br> Для остальных - $93.</span>
-                <div class="button-head">
-                    <a href="" class="button-link">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</a>
+            <div class="col-5">
+                <div class="header__item header__item--third">
+                    <p class="text-white ">Как без знаний программирования <br> и математического склада ума <span>за <br> выходные</span> создать сайт, аналоги
+                        <br> которого легко продать за <span>$300</span></p>
+                    <p>[ для тех, кто давно хотел начать <br> зарабатывать в IT, но не знал с <br> чего начать ]</p>
+                </div>
+                <div class="header__item">
+                    <p class="text-white-smaller">20 ЯНВАРЯ 20:00 МСК</p>
+                    <span class="bgc-white">Участие <span>БЕСПЛАТНО</span> для первых <br> 613 зарегистрировавшихся. <br> Для остальных - $93.</span>
+                    <div class="button-head">
+                        <a href="" class="button-link">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="wrapper-main">
+</header>
+<main class="wrapper-main">
     <div class="container">
         <div class="row wrapper-main__first no-gutters">
             <div class="col-xl-6">
@@ -160,6 +161,7 @@
                     <span class="bgc-black bgc-black__lighter">613 зарегистрировавшихся.</span>
                     <br>
                     <span class="bgc-black bgc-black__lighter">Для остальных - $93.</span>
+                    </span>
                 </div>
             </div>
             <div class="col-xl-1">
@@ -186,7 +188,7 @@
             </div>
         </div>
     </div>
-    <section class="wrapper-head second-section">
+    <section class="header second-section">
 
             <div class="container">
                 <div class="row no-gutters">
@@ -261,7 +263,7 @@
             </div>
         </div>
     </section>
-    <section class="wrapper-head third-section">
+    <section class="header third-section">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-md-12">
@@ -278,7 +280,7 @@
             </div>
         </div>
     </section>
-</div>
+</main>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
