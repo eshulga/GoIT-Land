@@ -3,6 +3,11 @@
     src: url("../fonts/acrom800.otf");
 }
 
+@font-face {
+    font-family: acrom1000;
+    src: url("../fonts/The Northern Block - Acrom ExtraBold.otf");
+}
+
 
 
 * {
@@ -266,4 +271,14 @@ span.bgc-white {
 
 .wrapper-main__sixth {
     margin-bottom: 108px;
+}
+
+.text-middle__smaller {
+    font-size: 30px;
+    font-family: acrom1000, Tahoma sans-serif;
+
+}
+
+.text-small-silver__margin {
+    margin-top: 28px;
 }
