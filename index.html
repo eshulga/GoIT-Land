@@ -40,7 +40,7 @@
                 <p class="text-white-smaller">20 ЯНВАРЯ 20:00 МСК</p>
                 <span class="bgc-white">Участие <span>БЕСПЛАТНО</span> для первых <br> 613 зарегистрировавшихся. <br> Для остальных - $93.</span>
                 <div class="button-head">
-                    <a href="" class="button-link">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</a>
+                    <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
             </div>
             <div class="col-xl-6">
                 <div class="button-head butt">
-                    <a href="" class="button-link">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</a>
+                    <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
                 </div>
             </div>
         </div>
@@ -175,7 +175,7 @@
                 </div>
                 <p class="text-black-timer">00:00:00:00:000</p>
                 <div class="button-head butt-one">
-                    <a href="" class="button-link">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</a>
+                    <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
                 </div>
             </div>
         </div>
@@ -209,9 +209,9 @@
                             <li>PDF <span>«Карта профессий в IT»</span>, чтобы видеть, куда дальше двигаться и какие перспективы тебя ожидают</li>
                             <li>PDF <span>«Переводчик с IT-языка на человеческий»</span>, чтобы ты смог быстро стать своим в «тусовке»</li>
                         </ul>
-                        <form action="#" method="POST">
-                            <input type="submit" value="УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ" class="button-head">
-                        </form>
+                        <div>
+                            <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -253,10 +253,8 @@
                 <div class="col-md-6">
                     <h3>Хочешь обучаться интересно и быстро получать результаты — <span>начинай сейчас с бесплатного мастер-класса!</span></h3>
                 </div>
-                <div class="col-md-6">
-                    <form action="#" method="POST">
-                        <input type="submit" value="УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ" class="button-head">
-                    </form>
+                <div class="col-md-6 justify-content-center">
+                    <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
                 </div>
             </div>
         </div>
@@ -278,6 +276,40 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h3>[ УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ_ ]</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <form action="#" class="modal-form enrollment-form" data-form="modal-form">
+                            <label for="">Имя
+                                    <input type="text" name="name" placeholder="Как вас зовут?" required="">
+                                  </label>
+                            <label for="">Телефон
+                                      <input type="tel" name="phone" placeholder="Ваш номер телефона" required="">
+                                  </label>
+                            <label for="">E-mail
+                                      <input type="email" name="email" placeholder="Адрес электронного ящика" required="">
+                                  </label>
+                            <label for="">Формат обучения:
+                                    <select name="course_info" required="">
+                                      <option value="online" selected="">FRONTEND ONLINE</option>
+                                      <option value="evening">FRONTEND ВЕЧЕР</option>
+                                      <option value="morning" class="nokiev53">FRONTEND УТРО  </option>
+                                    </select>
+                                  </label>
+                            <button type="submit" class="registration-btn submit">ЗАПИСАТЬСЯ НА КОНСУЛЬТАЦИЮ</button>
+                          </form>
+            </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
