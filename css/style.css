@@ -21,6 +21,10 @@
     padding: 0;
 }
 
+body {
+    font-family: acromlight, Tahoma sans-serif;
+}
+
 .wrapper-head {
     width: 100%;
     background-color: #181c27;
