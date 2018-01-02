@@ -255,14 +255,54 @@ span.bgc-white {
     background: url('../img/second-section-header.jpg')
 }
 
-.second-section ul.list li {
-    color: #959595;
-    list-style: square;
-    margin-bottom: 25px;
-}
+
 
 ul.list {
     margin: 60px 0;
+}
+
+ul.list li {
+    list-style: none;
+    display: flex;
+    padding-right: 40px;
+}
+
+ul.list li:before {
+    content: "\25fc";
+    margin-right: 15px;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    font-family: acrom800, Tahoma sans-serif;
+    color: #000;
+}
+
+
+ul.list--counted li {
+    display: inline-block;
+}
+ul.list--counted li:before {
+    content: "\25fc 0" counter(section);
+    counter-increment: section;
+    position: absolute;
+    top: -27px;
+    left: 0;
+    font-size: 14px;
+    font-family: acrom800, Tahoma sans-serif;
+}
+ul.list.list-left li:nth-child(even) {
+    padding-left: 15px;
+}
+
+
+.second-section ul.list li {
+    margin-bottom: 25px;
+    color: #959595;
+    position: relative;
+}
+
+.second-section ul.list li:before {
+    color: #959595;
 }
 
 .second-section .column-left {
@@ -273,4 +313,19 @@ ul.list {
 .second-section .column-right {
     background: url(../img/Plashka.jpg);
     padding: 270px 100px 0;
+}
+
+section.main-wrapper .row {
+    margin-top: 150px;
+}
+
+.second-section_firstrow {
+    background-image: url('../img/go_it_2.png');
+    background-repeat: no-repeat;
+}
+
+p.text-subscribe {
+    text-align: right;
+    color: #000;
+    font-size: 24px;
 }
