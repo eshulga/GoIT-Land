@@ -152,7 +152,7 @@ span.bgc-white {
 
 .img-main {
     position: absolute;
-    top: -32%;
+    top: -83%;
 }
 
 .text-black-smaller{
@@ -163,6 +163,7 @@ span.bgc-white {
 }
 
 .list-left>li {
+    width: 50%;
     font-family: acrom800, Tahoma sans-serif;
     list-style: square;
     font-size: 18px;
@@ -171,18 +172,8 @@ span.bgc-white {
 }
 
 .list-left {
-    margin-left: 22px;
-}
-
-.list-right>li {
-    font-family: acrom800, Tahoma sans-serif;
-    list-style: square;
-    font-size: 18px;
-    color: #6b6f7a;
-    margin-bottom: 34px;
-}
-
-.list-right {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 22px;
 }
 
@@ -196,6 +187,9 @@ span.bgc-white {
 }
 
 .bgc-area {
+    position: absolute;
+    bottom: 6%;
+    right: 13%;
     font-family: acrom800, Tahoma sans-serif;
     margin-top: 86px;
 }
@@ -216,7 +210,7 @@ span.bgc-white {
 }
 
 .butt {
-    top: 93%;
+    top: 25%;
     margin-left: 16px;
 }
 
@@ -226,7 +220,7 @@ span.bgc-white {
 
 .img-go {
     position: absolute;
-    top: -49%;
+    top: -72%;
 }
 
 .second-section {
