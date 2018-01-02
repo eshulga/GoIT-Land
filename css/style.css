@@ -8,6 +8,10 @@
     src: url("../fonts/The Northern Block - Acrom ExtraBold.otf");
 }
 
+@font-face {
+    font-family: acromlight;
+    src: url("../fonts/Acrom Regular.otf");
+}
 
 
 * {
@@ -134,15 +138,25 @@ span.bgc-white {
     height: 52px;
     background-color: #ff6b08;
     border: none;
+    text-align: center;
+}
+
+.button-link {
     font-family: acrom800, Tahoma sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: #fff;
+    line-height: 52px;
+}
+
+.button-link:hover {
+    text-decoration: none;
+    color: white;
+
 }
 
 .button-head:hover {
     background-color: #e3570c;
-    cursor: pointer;
 }
 
 .wrapper-main__first {
@@ -178,7 +192,7 @@ span.bgc-white {
 
 .list-left>li {
     width: 50%;
-    font-family: acrom800, Tahoma sans-serif;
+    font-family: acromlight, Tahoma sans-serif;
     list-style: square;
     font-size: 18px;
     color: #6b6f7a;
@@ -197,7 +211,7 @@ span.bgc-white {
     background-color: #000;
     color: #fff;
     font-size: 18px;
-    padding: 0 3px;
+    padding: 0 7px;
 }
 
 .bgc-area {
@@ -242,15 +256,16 @@ span.bgc-white {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    list-style: none;
+    height: 400px;
 }
 
 .list-second>li {
     position: relative;
-    font-family: acrom800, Tahoma sans-serif;
+    font-family: acromlight, Tahoma sans-serif;
     font-size: 18px;
     margin-top: 58px;
     width: 50%;
+    list-style: none;
 }
 
 .list-second>li:before {
@@ -261,8 +276,17 @@ span.bgc-white {
     left: 0;
     font-size: 14px;
     font-family: acrom800, Tahoma sans-serif;
+}
 
+.text-black-middle {
+    text-align: center;
+    font-size: 36px;
+    font-family: acrom800, Tahoma sans-serif;
+}
 
+.wrapper-main__fifth {
+    margin-top: 136px;
+    margin-bottom: 170px;
 }
 
 .second-section {
