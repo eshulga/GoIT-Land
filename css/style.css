@@ -215,8 +215,8 @@ span.bgc-white {
     counter-reset: section;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     list-style: none;
-    justify-content: space-around;
 }
 
 .list-second>li {
