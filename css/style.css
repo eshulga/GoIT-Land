@@ -215,12 +215,40 @@ span.bgc-white {
 }
 
 .wrapper-main__last {
-    margin-bottom: 390px;
+    margin-bottom: 140px;
 }
 
 .img-go {
     position: absolute;
     top: -72%;
+}
+
+.list-second {
+    counter-reset: section;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list-second>li {
+    position: relative;
+    font-family: acrom800, Tahoma sans-serif;
+    font-size: 18px;
+    margin-top: 58px;
+    width: 50%;
+}
+
+.list-second>li:before {
+    content: "\25fc 0" counter(section);
+    counter-increment: section;
+    position: absolute;
+    top: -27px;
+    left: 0;
+    font-size: 14px;
+    font-family: acrom800, Tahoma sans-serif;
+
+
 }
 
 .second-section {
