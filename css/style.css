@@ -3,6 +3,11 @@
     src: url("../fonts/acrom800.otf");
 }
 
+@font-face {
+    font-family: AcromExtraBold;
+    src: url("../fonts/The Northern Block - Acrom ExtraBold.otf");
+}
+
 
 
 * {
@@ -12,6 +17,18 @@
 
 h1, h2 {
     text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    font-family: AcromExtraBold, Tahoma sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 .container{
@@ -74,18 +91,15 @@ p {
     font-weight: bold;
 }
 
-.text-white-huge, .text-white-huge--header, .text-white-huge--paragraph {
+.text-white-huge {
     font-family: acrom800, Tahoma sans-serif;
     color: #fff;
     font-weight: bold;
 }
 
-.text-white-huge--header {
-    font-size: 40px;
-}
-
 .text-white-huge--paragraph {
     font-size: 30px;
+    color: #fff;
 }
 
 
@@ -265,6 +279,7 @@ ul.list li {
     list-style: none;
     display: flex;
     padding-right: 40px;
+    margin-bottom: 25px;
 }
 
 ul.list li:before {
@@ -277,13 +292,26 @@ ul.list li:before {
     color: #000;
 }
 
+ul.list--counter-top, ul.list--counter-left {
+    counter-reset: count;
+}
 
-ul.list--counted li {
+ul.list--counter-top li {
     display: inline-block;
 }
-ul.list--counted li:before {
-    content: "\25fc 0" counter(section);
-    counter-increment: section;
+
+ul.list--counter-left li:before {
+    padding-top: 5px;
+    content: "\25fc \ 0" counter(count);
+    counter-increment: count;
+    text-align: right;
+    max-width: 20px;
+    line-height: 14px;
+}
+
+ul.list--counter-top li:before {
+    content: "\25fc 0" counter(count);
+    counter-increment: count;
     position: absolute;
     top: -27px;
     left: 0;
