@@ -42,6 +42,10 @@ h3 {
     padding: 0;
 }
 
+body {
+    font-family: acromlight, Tahoma sans-serif;
+}
+
 .wrapper-head {
     width: 100%;
     background-color: #181c27;
@@ -509,3 +513,8 @@ p.text-subscribe {
     transition: all .3s;
 }
 
+
+
+.wrapper-main__ninth {
+    margin-bottom: 180px;
+}
