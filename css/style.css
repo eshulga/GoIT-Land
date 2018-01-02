@@ -227,13 +227,13 @@ span.bgc-white {
     background: url('../img/second-section-header.jpg')
 }
 
-.second-section ul.list-left li, .second-section ul.list-right li {
+.second-section ul.list li {
     color: #959595;
     list-style: square;
     margin-bottom: 25px;
 }
 
-.second-section ul.list-left, ul.list-right {
+ul.list {
     margin: 60px 0;
 }
 
