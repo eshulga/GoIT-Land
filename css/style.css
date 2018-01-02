@@ -216,7 +216,7 @@ span.bgc-white {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    list-style: none;
+    height: 400px;
 }
 
 .list-second>li {
@@ -225,6 +225,7 @@ span.bgc-white {
     font-size: 18px;
     margin-top: 58px;
     width: 50%;
+    list-style: none;
 }
 
 .list-second>li:before {
@@ -235,6 +236,24 @@ span.bgc-white {
     left: 0;
     font-size: 14px;
     font-family: acrom800, Tahoma sans-serif;
+}
 
+.text-black-middle {
+    font-size: 36px;
+    font-family: acrom800, Tahoma sans-serif;
+}
 
+.wrapper-main__fifth {
+    margin-top: 136px;
+    margin-bottom: 170px;
+}
+
+.text-orange-middle {
+    color: #ff6b08;
+}
+
+.img-1-number {
+    position: absolute;
+    right: -1%;
+    top: -38%;
 }
