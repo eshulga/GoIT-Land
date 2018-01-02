@@ -97,6 +97,7 @@ p {
 
 .text-white-huge {
     font-family: acrom800, Tahoma sans-serif;
+    font-size: 40px;
     color: #fff;
     font-weight: bold;
 }
@@ -123,7 +124,7 @@ p {
 }
 
 span.bgc-white {
-    padding: 5px;
+    padding: 2px;
     line-height: 2.2;
     font-family: acrom800, Tahoma sans-serif;
     color: #000;
@@ -133,7 +134,8 @@ span.bgc-white {
 }
 
 .button-head {
-    top: 62%;
+    position: absolute;
+    top: 76%;
     width: 360px;
     height: 52px;
     background-color: #ff6b08;
@@ -248,7 +250,7 @@ span.bgc-white {
 
 .img-go {
     position: absolute;
-    top: -72%;
+    top: -62%;
 }
 
 .list-second {
@@ -266,6 +268,7 @@ span.bgc-white {
     margin-top: 58px;
     width: 50%;
     list-style: none;
+    color: #6b6f7a;
 }
 
 .list-second>li:before {
@@ -276,6 +279,7 @@ span.bgc-white {
     left: 0;
     font-size: 14px;
     font-family: acrom800, Tahoma sans-serif;
+    color: black;
 }
 
 .text-black-middle {
@@ -390,4 +394,25 @@ p.text-subscribe {
     text-align: right;
     color: #000;
     font-size: 24px;
+}
+
+.img-svg {
+    position: absolute;
+    top: 38%;
+    width: 54px;
+    height: 21px;
+}
+
+.img-1-number {
+    position: absolute;
+    top: -26%;
+    left: 75%;
+}
+
+.text-small-silver {
+    font-family: acromlight, Tahoma sans-serif;
+}
+
+.wrapper-main__sixth {
+    margin-bottom: 100px;
 }
