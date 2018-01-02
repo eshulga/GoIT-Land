@@ -3,10 +3,35 @@
     src: url("../fonts/acrom800.otf");
 }
 
+@font-face {
+    font-family: AcromExtraBold;
+    src: url("../fonts/The Northern Block - Acrom ExtraBold.otf");
+}
+
 
 
 * {
     margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1, h2, h3 {
+    font-family: AcromExtraBold, Tahoma sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.container{
     padding: 0;
 }
 
@@ -69,9 +94,14 @@ p {
 .text-white-huge {
     font-family: acrom800, Tahoma sans-serif;
     color: #fff;
-    font-size: 40px;
     font-weight: bold;
 }
+
+.text-white-huge--paragraph {
+    font-size: 30px;
+    color: #fff;
+}
+
 
 .wrapper-last {
     margin-bottom: 144px;
@@ -99,7 +129,6 @@ span.bgc-white {
 }
 
 .button-head {
-    position: absolute;
     top: 62%;
     width: 360px;
     height: 52px;
@@ -137,7 +166,7 @@ span.bgc-white {
 
 .img-main {
     position: absolute;
-    top: -32%;
+    top: -83%;
 }
 
 .text-black-smaller{
@@ -148,6 +177,7 @@ span.bgc-white {
 }
 
 .list-left>li {
+    width: 50%;
     font-family: acrom800, Tahoma sans-serif;
     list-style: square;
     font-size: 18px;
@@ -156,18 +186,8 @@ span.bgc-white {
 }
 
 .list-left {
-    margin-left: 22px;
-}
-
-.list-right>li {
-    font-family: acrom800, Tahoma sans-serif;
-    list-style: square;
-    font-size: 18px;
-    color: #6b6f7a;
-    margin-bottom: 34px;
-}
-
-.list-right {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 22px;
 }
 
@@ -181,6 +201,9 @@ span.bgc-white {
 }
 
 .bgc-area {
+    position: absolute;
+    bottom: 6%;
+    right: 13%;
     font-family: acrom800, Tahoma sans-serif;
     margin-top: 86px;
 }
@@ -201,15 +224,136 @@ span.bgc-white {
 }
 
 .butt {
-    top: 93%;
+    top: 25%;
     margin-left: 16px;
 }
 
 .wrapper-main__last {
-    margin-bottom: 390px;
+    margin-bottom: 140px;
 }
 
 .img-go {
     position: absolute;
-    top: -49%;
+    top: -72%;
+}
+
+.list-second {
+    counter-reset: section;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style: none;
+}
+
+.list-second>li {
+    position: relative;
+    font-family: acrom800, Tahoma sans-serif;
+    font-size: 18px;
+    margin-top: 58px;
+    width: 50%;
+}
+
+.list-second>li:before {
+    content: "\25fc 0" counter(section);
+    counter-increment: section;
+    position: absolute;
+    top: -27px;
+    left: 0;
+    font-size: 14px;
+    font-family: acrom800, Tahoma sans-serif;
+
+
+}
+
+.second-section {
+    background: url('../img/second-section-header.jpg')
+}
+
+
+
+ul.list {
+    margin: 60px 0;
+}
+
+ul.list li {
+    list-style: none;
+    display: flex;
+    padding-right: 40px;
+    margin-bottom: 25px;
+}
+
+ul.list li:before {
+    content: "\25fc";
+    margin-right: 15px;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    font-family: acrom800, Tahoma sans-serif;
+    color: #000;
+}
+
+ul.list--counter-top, ul.list--counter-left {
+    counter-reset: count;
+}
+
+ul.list--counter-top li {
+    display: inline-block;
+}
+
+ul.list--counter-left li:before {
+    padding-top: 5px;
+    content: "\25fc \ 0" counter(count);
+    counter-increment: count;
+    text-align: right;
+    max-width: 20px;
+    line-height: 14px;
+}
+
+ul.list--counter-top li:before {
+    content: "\25fc 0" counter(count);
+    counter-increment: count;
+    position: absolute;
+    top: -27px;
+    left: 0;
+    font-size: 14px;
+    font-family: acrom800, Tahoma sans-serif;
+}
+ul.list.list-left li:nth-child(even) {
+    padding-left: 15px;
+}
+
+
+.second-section ul.list li {
+    margin-bottom: 25px;
+    color: #959595;
+    position: relative;
+}
+
+.second-section ul.list li:before {
+    color: #959595;
+}
+
+.second-section .column-left {
+    padding-top: 150px;
+    padding-right: 120px;
+}
+
+.second-section .column-right {
+    background: url(../img/Plashka.jpg);
+    padding: 270px 100px 0;
+}
+
+section.main-wrapper .row {
+    margin-top: 150px;
+}
+
+.second-section_firstrow {
+    background-image: url('../img/go_it_2.png');
+    background-repeat: no-repeat;
+}
+
+p.text-subscribe {
+    text-align: right;
+    color: #000;
+    font-size: 24px;
 }
