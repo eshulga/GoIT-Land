@@ -352,6 +352,16 @@ section.main-wrapper .row {
     background-repeat: no-repeat;
 }
 
+.third-section .column-right {
+    padding: 0 100px;
+}
+
+section.wrapper-head.third-section h2 {
+    font-size: 72px;
+    margin-top: 150px;
+    margin-bottom: 90px;
+}
+
 p.text-subscribe {
     text-align: right;
     color: #000;
