@@ -257,3 +257,13 @@ span.bgc-white {
     right: -1%;
     top: -38%;
 }
+
+.text-small-silver {
+    font-size: 18px;
+    color: #6b6f7a;
+    font-family: acrom800, Tahoma sans-serif;
+}
+
+.wrapper-main__sixth {
+    margin-bottom: 108px;
+}
