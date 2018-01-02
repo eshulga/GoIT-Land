@@ -2,7 +2,7 @@
 *.DS_Store
 logs
 *.log
-.idea/
+.idea/*
 node_modules/
 npm-debug.log
 .sass-cache/
