@@ -46,6 +46,11 @@ h3 {
     padding: 0;
 }
 
+body {
+    font-family: acromlight, Tahoma sans-serif;
+}
+
+
 .header {
     width: 100%;
     background-color: #181c27;
@@ -159,7 +164,7 @@ div.header__item>div.button-head {
     height: 52px;
     background-color: #ff6b08;
     border: none;
-    text-align: center;
+    color: #fff;
 }
 
 .button-link {
@@ -400,7 +405,7 @@ div.header__item>div.button-head {
     margin-bottom: 180px;
 }
 
-.second-section {
+.second-section-header, .third-section-header {
     background: url('../img/second-section-header.jpg')
 }
 
@@ -457,6 +462,13 @@ ul.list.list-left li:nth-child(even) {
     padding-left: 15px;
 }
 
+.column-right {
+    padding: 0 100px;
+}
+
+.second-section-wrapper {
+    padding-top: 150px;
+}
 
 .second-section ul.list li {
     margin-bottom: 25px;
@@ -476,19 +488,12 @@ ul.list.list-left li:nth-child(even) {
 .second-section .column-right {
     background: url(../img/Plashka.jpg);
     padding: 270px 100px 0;
-}
-
-section.main-wrapper .row {
-    margin-top: 150px;
+    height: 100%;
 }
 
 .second-section_firstrow {
     background-image: url('../img/go_it_2.png');
     background-repeat: no-repeat;
-}
-
-.third-section .column-right {
-    padding: 0 100px;
 }
 
 section.header.third-section h2 {
