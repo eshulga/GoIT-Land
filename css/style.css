@@ -160,6 +160,7 @@ div.header__item>div.button-head {
 }
 
 .button-head {
+    padding-left: 54px;
     width: 360px;
     height: 52px;
     background-color: #ff6b08;
