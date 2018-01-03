@@ -561,11 +561,11 @@ p.text-subscribe {
 p.choise-text {
     display: block;
     position: relative;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
     color: #ff6b08;
     margin: 0;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .choise-text:before {
@@ -635,7 +635,7 @@ p.choise-text {
 }
 
 .footer-links a {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #999;
 }
 
