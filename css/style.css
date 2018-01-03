@@ -46,18 +46,30 @@ body {
     font-family: acromlight, Tahoma sans-serif;
 }
 
-.wrapper-head {
+
+.header {
     width: 100%;
     background-color: #181c27;
-    overflow: hidden;
+    padding: 25px 0 144px 0;
+    position: relative;
 }
 
-.img-logo {
-    margin: 20px;
-    margin-left: 0px;
+.header::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/computer.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
 }
-
-.phone-number:link {
+.header__row {
+    margin-bottom: 219px;
+}
+.phone-number{
     font-family: acrom800, Tahoma sans-serif;
     text-decoration: none;
     color: #ffe4e4;
@@ -65,17 +77,21 @@ body {
     font-weight: bold;
 }
 
-.numb {
-    padding: 25px 0;
+.header__item {
+    margin-bottom: 70px;
 }
 
-.wrapper-first {
-    margin-bottom: 194px;
+.header__item--third {
+    margin-bottom: 0;
 }
 
-.comp {
-    position: absolute;
-    right: 0;
+.header__item:last-child {
+    margin-bottom: 0;
+}
+
+.logo {
+    display: block;
+    width: 100px;
 }
 
 span {
@@ -106,16 +122,12 @@ p {
     font-family: acrom800, Tahoma sans-serif;
     color: #fff;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .text-white-huge--paragraph {
     font-size: 30px;
     color: #fff;
-}
-
-
-.wrapper-last {
-    margin-bottom: 144px;
 }
 
 .wrapper-second {
@@ -140,11 +152,9 @@ span.bgc-white {
 }
 
 .button-head {
-    width: 360px;
-    height: 52px;
+    padding: 10px 20px;
     background-color: #ff6b08;
     border: none;
-    text-align: center;
     color: #fff;
 }
 
@@ -166,8 +176,12 @@ span.bgc-white {
     background-color: #e3570c;
 }
 
+.wrapper-main {
+    padding-top: 260px;
+}
+
 .wrapper-main__first {
-    margin-top: 260px;
+    /*margin-top: 260px;*/
     margin-bottom: 140px;
 }
 
@@ -388,7 +402,7 @@ span.bgc-white {
     margin-bottom: 180px;
 }
 
-.second-section {
+.second-section-header, .third-section-header {
     background: url('../img/second-section-header.jpg')
 }
 
@@ -445,6 +459,9 @@ ul.list.list-left li:nth-child(even) {
     padding-left: 15px;
 }
 
+.second-section-wrapper {
+    padding-top: 150px;
+}
 
 .second-section ul.list li {
     margin-bottom: 25px;
@@ -466,10 +483,6 @@ ul.list.list-left li:nth-child(even) {
     padding: 270px 100px 0;
 }
 
-section.main-wrapper .row {
-    margin-top: 150px;
-}
-
 .second-section_firstrow {
     background-image: url('../img/go_it_2.png');
     background-repeat: no-repeat;
@@ -479,7 +492,7 @@ section.main-wrapper .row {
     padding: 0 100px;
 }
 
-section.wrapper-head.third-section h2 {
+section.header.third-section h2 {
     font-size: 72px;
     margin-top: 150px;
     margin-bottom: 90px;
@@ -491,29 +504,9 @@ p.text-subscribe {
     font-size: 24px;
 }
 
-.modal {
-    position: fixed;
-    z-index: 1050;
-    display: none;
-    overflow: hidden;
-    outline: 0;
-    opacity: 0;
-    background-color: #fff;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    max-width: 458px;
-    min-width: 300px;
-    height: auto;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform: translateX(-50%) translateY(-50%);
-    transition: all .3s;
-    transition: all .3s;
+.delimiter {
+    padding-top: 150px;
 }
-
-
 
 .wrapper-main__ninth {
     margin-bottom: 180px;
