@@ -206,7 +206,6 @@ span.bgc-white {
 }
 
 .list-left>li {
-    width: 50%;
     font-family: acromlight, Tahoma sans-serif;
     list-style: square;
     font-size: 18px;
@@ -215,8 +214,18 @@ span.bgc-white {
 }
 
 .list-left {
-    display: flex;
-    flex-wrap: wrap;
+    margin-left: 22px;
+}
+
+.list-right>li {
+    font-family: acromlight, Tahoma sans-serif;
+    list-style: square;
+    font-size: 18px;
+    color: #6b6f7a;
+    margin-bottom: 34px;
+}
+
+.list-right {
     margin-left: 22px;
 }
 
@@ -270,13 +279,14 @@ span.bgc-white {
     flex-wrap: wrap;
     flex-direction: column;
     height: 400px;
+    margin-top: 58px;
 }
 
 .list-second>li {
     position: relative;
     font-family: acromlight, Tahoma sans-serif;
     font-size: 18px;
-    margin-top: 58px;
+    margin-bottom: 58px;
     width: 50%;
     list-style: none;
     color: #6b6f7a;
@@ -522,12 +532,7 @@ p.text-subscribe {
     padding-bottom: 100px;
 }
 
-.img-human {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.text-human {
+.first-section__four {
     padding-top: 100px;
     padding-bottom: 100px;
 }
