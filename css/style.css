@@ -658,3 +658,7 @@ ul.list.list-left {
 .second-section_firstrow ul.list-left li {
     width: 50%;
 }
+
+.second-section-wrapper--first {
+    padding-bottom: 0;
+}
