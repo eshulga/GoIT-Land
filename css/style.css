@@ -294,7 +294,6 @@ div.header__item>div.button-head {
     font-family: acromlight, Tahoma sans-serif;
     font-size: 1.125rem;
     margin-bottom: 58px;
-    width: 50%;
     list-style: none;
     color: #6b6f7a;
 }
@@ -308,6 +307,14 @@ div.header__item>div.button-head {
     font-size: 0.875rem;
     font-family: acrom800, Tahoma sans-serif;
     color: black;
+}
+
+.list-second>li:nth-child(2) {
+    margin-bottom: 0;
+}
+
+.list-second>li:nth-child(5) {
+    margin-bottom: 0;
 }
 
 .text-black-middle {
@@ -347,7 +354,6 @@ div.header__item>div.button-head {
 }
 
 .bgc-area-align {
-    padding-left: 72px;
     text-align: center;
 }
 
