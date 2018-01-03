@@ -18,6 +18,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: acromlight, Tahoma sans-serif;
 }
@@ -31,11 +35,11 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .container{
@@ -68,7 +72,7 @@ h3 {
     font-family: acrom800, Tahoma sans-serif;
     text-decoration: none;
     color: #ffe4e4;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
 }
 
@@ -95,7 +99,7 @@ span {
 
 p {
     font-family: acrom800, Tahoma sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #959595;
     font-weight: 100;
     margin-bottom: 24px;
@@ -109,20 +113,19 @@ p {
 .text-orange {
     font-family: acrom800, Tahoma sans-serif;
     color: #e3570c;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 .text-white-huge {
     font-family: acrom800, Tahoma sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #fff;
     font-weight: bold;
-    font-size: 40px;
 }
 
 .text-white-huge--paragraph {
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #fff;
 }
 
@@ -132,7 +135,7 @@ p {
 
 .text-white-smaller {
     font-family: acrom800, Tahoma sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #fff;
     font-weight: bold;
 }
@@ -143,13 +146,15 @@ span.bgc-white {
     font-family: acrom800, Tahoma sans-serif;
     color: #000;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 
+div.header__item>div.button-head {
+    margin-top: 58px;
+}
+
 .button-head {
-    position: absolute;
-    top: 83%;
     width: 360px;
     height: 52px;
     background-color: #ff6b08;
@@ -159,7 +164,7 @@ span.bgc-white {
 
 .button-link {
     font-family: acrom800, Tahoma sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     color: #fff;
     line-height: 52px;
@@ -186,7 +191,7 @@ span.bgc-white {
 
 .text-black-huge {
     font-family: acrom800, Tahoma sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #000;
     font-weight: bold;
 }
@@ -195,12 +200,12 @@ span.bgc-white {
     font-family: acrom800, Tahoma sans-serif;
     font-weight: bold;
     color: #000;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .text-black-smaller{
     font-family: acrom800, Tahoma sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #000;
 }
@@ -208,7 +213,7 @@ span.bgc-white {
 .list-left>li {
     font-family: acromlight, Tahoma sans-serif;
     list-style: square;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #6b6f7a;
     margin-bottom: 34px;
 }
@@ -220,7 +225,7 @@ span.bgc-white {
 .list-right>li {
     font-family: acromlight, Tahoma sans-serif;
     list-style: square;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #6b6f7a;
     margin-bottom: 34px;
 }
@@ -234,14 +239,11 @@ span.bgc-white {
     margin-top: 86px;
     background-color: #000;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 0 7px;
 }
 
 .bgc-area {
-    position: absolute;
-    bottom: 6%;
-    right: 13%;
     font-family: acrom800, Tahoma sans-serif;
     margin-top: 86px;
 }
@@ -249,7 +251,7 @@ span.bgc-white {
 .text-main__black {
     font-family: acrom800, Tahoma sans-serif;
     color: #000;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 30px;
 }
@@ -257,7 +259,7 @@ span.bgc-white {
 .text-main__orange {
     font-family: acrom800, Tahoma sans-serif;
     color: #ff6b08;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -285,7 +287,7 @@ span.bgc-white {
 .list-second>li {
     position: relative;
     font-family: acromlight, Tahoma sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 58px;
     width: 50%;
     list-style: none;
@@ -298,14 +300,14 @@ span.bgc-white {
     position: absolute;
     top: -27px;
     left: 0;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: acrom800, Tahoma sans-serif;
     color: black;
 }
 
 .text-black-middle {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: acrom800, Tahoma sans-serif;
 }
 
@@ -318,14 +320,8 @@ span.bgc-white {
     color: #ff6b08;
 }
 
-.img-1-number {
-    position: absolute;
-    right: -1%;
-    top: -38%;
-}
-
 .text-small-silver {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #6b6f7a;
     font-family: acromlight, Tahoma sans-serif;
 }
@@ -335,7 +331,7 @@ span.bgc-white {
 }
 
 .text-middle__smaller {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: AcromExtraBold, Tahoma sans-serif;
     padding-top: 40px;
 
@@ -367,7 +363,7 @@ span.bgc-white {
 }
 
 .text-black-timer {
-    font-size: 35px;
+    font-size: 2.25rem;
     font-family: AcromExtraBold, Tahoma sans-serif;
     color: black;
     margin-bottom: 10px;
@@ -388,7 +384,7 @@ span.bgc-white {
 }
 
 .timer-top>p {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .img-right {
@@ -426,7 +422,7 @@ ul.list li:before {
     margin-right: 15px;
     display: inline-block;
     position: relative;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: acrom800, Tahoma sans-serif;
     color: #000;
 }
@@ -454,7 +450,7 @@ ul.list--counter-top li:before {
     position: absolute;
     top: -27px;
     left: 0;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: acrom800, Tahoma sans-serif;
 }
 ul.list.list-left li:nth-child(even) {
@@ -496,7 +492,7 @@ section.main-wrapper .row {
 }
 
 section.header.third-section h2 {
-    font-size: 72px;
+    font-size: 4.5rem;
     margin-top: 150px;
     margin-bottom: 90px;
 }
@@ -504,7 +500,7 @@ section.header.third-section h2 {
 p.text-subscribe {
     text-align: right;
     color: #000;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .img-svg {
