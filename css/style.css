@@ -160,8 +160,7 @@ div.header__item>div.button-head {
 }
 
 .button-head {
-    width: 360px;
-    height: 52px;
+    padding: 10px 20px;
     background-color: #ff6b08;
     border: none;
     color: #fff;
@@ -690,4 +689,81 @@ ul.list.list-left {
 
 .second-section-wrapper--first {
     padding-bottom: 0;
+}
+
+@media all and (max-width: 768px){
+    .column-right {
+        text-align: center;
+    }
+
+    .text-white-huge {
+        font-size: 2.3rem;
+    }
+
+    .second-section-header .list--counter-top {
+        text-align: left;
+    }
+
+    .second-section-header .column-right {
+        padding: 70px 100px;
+
+    }
+
+    .second-section-header .column-right .text-white-huge--paragraph {
+        text-align: left;
+    }
+
+    .second-section-header .column-left {
+        padding-right: 0;
+    }
+
+    .choise-wrapper {
+        padding-bottom: 70px;
+    }
+
+    .choise-text:after, .second-section-wrapper .row-delimiter h3:after {
+        content: '';
+        min-width: 50px;
+        min-height: 15px;
+        display: block;
+        position: absolute;
+        top: unset;
+        right: unset;
+        bottom: -70px;
+        left: 50%;
+        background-image: url(../img/arrow.png);
+        background-repeat: no-repeat;
+        transform: translate(0, -50%);
+        transform: rotate(90deg);
+    }
+
+    .third-section-header .col-md-6 .column-right {
+        text-align: left;
+        padding: 0 15px;
+    }
+
+    
+}
+
+@media all and (max-width: 480px){
+
+    header, footer, section {
+        padding: 0 10px !important;
+    }
+
+    .second-section_firstrow ul.list-left li {
+        width: 100%;
+    }
+
+    ul.list.list-left li:nth-child(even) {
+        padding: 0;
+    }
+
+    .column-right, .third-section-header .col-md-6 .column-right{
+        padding: 0;
+    }
+
+    .second-section-header .column-right {
+        padding: 70px 0;
+    }
 }
