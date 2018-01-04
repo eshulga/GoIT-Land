@@ -413,7 +413,7 @@ div.header__item>div.button-head {
 }
 
 .timer-top {
-    width: 336px;
+/*    width: 336px; не надо*/ 
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -441,7 +441,7 @@ div.header__item>div.button-head {
 }
 
 .timer-value > p {
-    width: 336px;
+/*    width: 336px; не надо*/
     display: flex;
     justify-content: space-around;
 }
