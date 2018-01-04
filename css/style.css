@@ -687,6 +687,29 @@ ul.list.list-left {
     padding-bottom: 0;
 }
 
+.modal {
+    position: fixed;
+    z-index: 1050;
+    display: none;
+    overflow: hidden !important;
+    outline: 0;
+    opacity: 1;
+    background-color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    max-width: 458px;
+    min-width: 300px;
+    height: min-content;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all .3s;
+    transition: all .3s;
+    padding: 60px;
+}
+
 @media all and (max-width: 768px){
 
     .text-black-huge {
@@ -764,6 +787,10 @@ ul.list.list-left {
         padding: 0 15px;
     }
 
+    .second-section-wrapper {
+        padding: 50px 10px !important;
+    }
+
     
 }
 
@@ -804,4 +831,113 @@ ul.list.list-left {
 
 .butt {
     margin-top: 20px;
+}
+
+body .modal {
+    padding: 20px !important;
+}
+
+.modal-head h4 {
+    color: #000;
+    font-family: AcromExtraBold;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+body .modal-head h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    border: none;
+}
+
+.enrollment-form.modal-form {
+    background-color: transparent;
+    padding: 0;
+    min-height: 100%;
+    margin-top: 20px;
+    box-shadow: 0 22px 43px transparent;
+}
+
+.enrollment-form label {
+    opacity: .36;
+    position: relative;
+    color: #fff;
+    font-family: AcromExtraBold;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.enrollment-form label input, .enrollment-form label select {
+    color: #fff;
+    font-family: Acrom;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    border: 0;
+    border-bottom: 1px solid #6b6f7a;
+    padding: 11px 1px;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+}
+
+.enrollment-form.modal-form input, .enrollment-form.modal-form select {
+    color: #000;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+}
+
+.enrollment-form.modal-form label {
+    opacity: 1;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.popup__close {
+    width: 21px;
+    height: 19px;
+    background: url(../img/close.png) no-repeat;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    opacity: .5;
+    font-size: 30px;
+}
+
+.enrollment-form.modal-form button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.registration-btn {
+    background-color: #ff6b08;
+    padding: 17px 25px 15px;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    color: #fff;
+    font-family: Acrom;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+}
+
+.enrollment-form.modal-form input:focus {
+    outline: none;
 }
