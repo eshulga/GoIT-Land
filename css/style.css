@@ -272,22 +272,7 @@ div.header__item>div.button-head {
 
 @media screen and (max-width: 960px) {
 
-    .text-black-huge {
-        font-size: 2.3rem;
-    }
-    .text-black {
-        font-size: 1.3rem;
-    }
 
-    div.wasserman > p.text-small-silver {
-        font-size: 0.9rem;
-    }
-    .list-second>li {
-        font-size: 0.925rem;
-    }
-    .button-link {
-        margin-top: 88px;
-    }
 }
 
 .list-second {
@@ -703,6 +688,28 @@ ul.list.list-left {
 }
 
 @media all and (max-width: 768px){
+
+    .text-black-huge {
+        font-size: 2.3rem;
+    }
+    .text-black {
+        font-size: 1.3rem;
+    }
+
+    div.wasserman > p.text-small-silver {
+        font-size: 0.9rem;
+    }
+    .list-second>li {
+        font-size: 0.925rem;
+    }
+    .button-link {
+        margin-top: 88px;
+    }
+
+    .list-second>li {
+        font-size: 0.925rem;
+    }
+
     .column-right {
         text-align: center;
     }
