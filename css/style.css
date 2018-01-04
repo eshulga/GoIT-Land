@@ -170,13 +170,6 @@ div.header__item>div.button-head {
     margin-top: 54px;
 }
 
-@media screen and (max-width: 1024px) {
-    .button-link {
-        margin-top: 88px;
-    }
-}
-
-
 .button-link:hover {
     text-decoration: none;
     color: white;
@@ -270,37 +263,30 @@ div.header__item>div.button-head {
     font-weight: bold;
 }
 
-.butt {
-    top: 25%;
-    margin-left: 16px;
-}
-
 
 .text-go {
-    padding-top: 124px;
+    padding-top: 90px;
     background: url("../img/GO.png") no-repeat;
     background-position: top left;
 }
 
-@media screen and (max-width: 1024px) {
-    div.text-go > h3.text-black-huge {
-        font-size: 1.5rem;
-    }
-    div.text-go > p.text-black {
-        font-size: 1rem;
-    }
-}
+@media screen and (max-width: 960px) {
 
+    .text-black-huge {
+        font-size: 2.3rem;
+    }
+    .text-black {
+        font-size: 1.3rem;
+    }
 
-@media screen and (max-width: 1024px) {
-    div.wasserman > h3.text-black-huge {
-        font-size: 1.5rem;
-    }
-    div.wasserman > p.text-black {
-        font-size: 1rem;
-    }
     div.wasserman > p.text-small-silver {
         font-size: 0.9rem;
+    }
+    .list-second>li {
+        font-size: 0.925rem;
+    }
+    .button-link {
+        margin-top: 88px;
     }
 }
 
@@ -332,13 +318,6 @@ div.header__item>div.button-head {
     font-family: acrom800, Tahoma sans-serif;
     color: black;
 }
-
-@media screen and (max-width: 1024px) {
-    .list-second>li {
-        font-size: 0.925rem;
-    }
-}
-
 
 .list-second>li:nth-child(2) {
     margin-bottom: 0;
@@ -779,6 +758,18 @@ ul.list.list-left {
 
 @media all and (max-width: 480px){
 
+    .number-1 {
+        padding-right: 0;
+    }
+
+    .img-svg-hidden {
+        display: none;
+    }
+
+    .button-link {
+        margin-top: 144px;
+    }
+
     header, footer, section {
         padding: 0 10px !important;
     }
@@ -798,4 +789,8 @@ ul.list.list-left {
     .second-section-header .column-right {
         padding: 70px 0;
     }
+}
+
+.butt {
+    margin-top: 20px;
 }
