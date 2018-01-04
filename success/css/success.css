@@ -1,0 +1,104 @@
+@font-face {
+    font-family: acrom800;
+    src: url("../../fonts/acrom800.otf");
+}
+
+@font-face {
+    font-family: AcromExtraBold;
+    src: url("../../fonts/The Northern Block - Acrom ExtraBold.otf");
+}
+
+@font-face {
+    font-family: acromlight;
+    src: url("../../fonts/Acrom Regular.otf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-content: space-between;
+}
+
+.success-container {
+    max-width: 40rem;
+    margin: auto;
+}
+
+
+.success-header, .success-main, .success-footer {
+    flex-basis: 100%;
+}
+
+.success-header {
+    padding-top: 25px;
+}
+
+
+.success-logo {
+    display: block;
+    background-image: url(../../img/Logo.png);
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+
+.success-main {
+    text-align: center;
+}
+
+
+.success-main__title {
+    text-transform: uppercase;
+    font-family: AcromExtraBold, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.success-main__text {
+    font-size: 1.125rem;
+    font-family: acromlight, sans-serif;
+}
+.success-main__text--last {
+    margin-bottom: 40px;
+}
+
+.success__button {
+    padding: 10px 20px;
+    background-color: #ff6b08;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: acromlight, sans-serif;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.success__button:hover {
+    background-color: #e3570c;
+}
+
+
+.success-links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.success-link {
+    text-decoration: none;
+    color: #999;
+    font-family: acromlight, sans-serif;
+    font-size: 0.75rem;
+}
