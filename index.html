@@ -13,9 +13,9 @@
     <div class="container">
         <div class="row no-gutters header__row">
                 <div class="col-md-9 col-8">
-                    <a href="http://fe.new.goit.ua/" class="logo"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
+                    <a href="http://fe.new.goit.ua/" class="logo"  target="_blank"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
                 </div>
-                <div class="col-md-3 col-4">
+                <div class="col-md-3 col-4 text-right">
                     <a href="tel:" class="phone-number">+7 (123) 456-78-90</a>
                 </div>
         </div>
@@ -212,7 +212,7 @@
                                 <li>PDF <span>«Карта профессий в IT»</span>, чтобы видеть, куда дальше двигаться и какие перспективы тебя ожидают</li>
                                 <li>PDF <span>«Переводчик с IT-языка на человеческий»</span>, чтобы ты смог быстро стать своим в «тусовке»</li>
                             </ul>
-                            <div>
+                            <div class="button-wrapper">
                                 <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
                             </div>
                         </div>
@@ -273,7 +273,9 @@
                 <div class="col-md-12 col-lg-6">
                     <div class="row-delimiter">
                         <div class="column-right">
-                            <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                            <div class="button-wrapper">
+                                <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -306,14 +308,16 @@
                 <div class="col-md-12 col-lg-6">
                     <div class="choise-wrapper">
                         <div class="column-right">
-                            <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                            <div class="button-wrapper">
+                                <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row no-gutters">
                     <div class="col-md-6 col-xs-6">
-                        <a href="http://fe.new.goit.ua/" class="logo logo-bottom"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
+                        <a href="http://fe.new.goit.ua/" class="logo logo-bottom"  target="_blank"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
                     </div>
                     <div class="col-md-6 col-xs-6 text-md-right">
                         <a href="tel:" class="phone-number">+7 (123) 456-78-90</a>
@@ -330,13 +334,13 @@
             <div class="modal-content">
               <form action="#" class="modal-form enrollment-form" data-form="modal-form">
                 <label for="">Имя
-                        <input type="text" name="name" placeholder="Как вас зовут?" required="">
+                        <input type="text" name="name" placeholder="Как вас зовут?" id="name" required="">
                       </label>
                 <label for="">Телефон
-                          <input type="tel" name="phone" placeholder="Ваш номер телефона" required="">
+                          <input type="tel" name="phone" placeholder="Ваш номер телефона" id="phone" required="">
                       </label>
                 <label for="">E-mail
-                          <input type="email" name="email" placeholder="Адрес электронного ящика" required="">
+                          <input type="email" name="email" placeholder="Адрес электронного ящика" id="email" required="">
                       </label>
               <button type="submit" class="registration-btn submit">Принять участие</button>
               </form>

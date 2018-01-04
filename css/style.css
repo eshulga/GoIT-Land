@@ -710,6 +710,49 @@ ul.list.list-left {
     padding: 60px;
 }
 
+@media all and (min-width: 769px) and (max-width: 960px){
+
+    .second-section-header .column-right {
+        padding: 70px 100px;
+
+    }
+
+    .second-section-header .column-right .button-wrapper,
+    .second-section-wrapper .column-right .button-wrapper,
+    .third-section .column-right .button-wrapper{
+        text-align: center;
+    }
+
+    .choise-wrapper {
+        padding-bottom: 40px;
+    }
+
+    .choise-text:after, .second-section-wrapper .row-delimiter h3:after {
+        content: '';
+        min-width: 50px;
+        min-height: 15px;
+        display: block;
+        position: absolute;
+        top: unset;
+        right: unset;
+        bottom: -70px;
+        left: 50%;
+        background-image: url(../img/arrow.png);
+        background-repeat: no-repeat;
+        transform: translate(0, -50%);
+        transform: rotate(90deg);
+    }
+
+    .second-section-wrapper .row-delimiter h3:after {
+        display: none;
+    }
+
+    .third-section-header .col-md-6 .column-right {
+        text-align: left;
+        padding: 0 15px;
+    }
+}
+
 @media all and (max-width: 768px){
 
     .text-black-huge {
@@ -776,10 +819,6 @@ ul.list.list-left {
         background-repeat: no-repeat;
         transform: translate(0, -50%);
         transform: rotate(90deg);
-    }
-
-    .second-section-wrapper .row-delimiter h3:after {
-        display: none;
     }
 
     .third-section-header .col-md-6 .column-right {
@@ -880,7 +919,7 @@ body .modal-head h4 {
 
 .enrollment-form label input, .enrollment-form label select {
     color: #fff;
-    font-family: Acrom;
+    font-family: acromlight;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -929,7 +968,7 @@ body .modal-head h4 {
     -o-transition: all .5s ease-out;
     -webkit-transition: all .5s ease-out;
     color: #fff;
-    font-family: Acrom;
+    font-family: acromlight;
     font-size: 11px;
     font-weight: 700;
     line-height: 18px;
