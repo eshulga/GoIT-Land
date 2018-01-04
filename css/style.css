@@ -167,11 +167,7 @@ div.header__item>div.button-head {
 }
 
 .button-link {
-    font-family: acrom800, Tahoma sans-serif;
-    font-size: 0.875rem;
-    font-weight: bold;
-    color: #fff;
-    line-height: 52px;
+    margin-top: 54px;
 }
 
 .button-link:hover {
@@ -185,7 +181,7 @@ div.header__item>div.button-head {
 }
 
 .wrapper-main {
-    padding-top: 260px;
+    padding-top: 100px;
 }
 
 .first-section__one {
@@ -267,16 +263,16 @@ div.header__item>div.button-head {
     font-weight: bold;
 }
 
-.butt {
-    top: 25%;
-    margin-left: 16px;
-}
-
 
 .text-go {
-    padding-top: 124px;
+    padding-top: 90px;
     background: url("../img/GO.png") no-repeat;
     background-position: top left;
+}
+
+@media screen and (max-width: 960px) {
+
+
 }
 
 .list-second {
@@ -381,7 +377,7 @@ div.header__item>div.button-head {
 }
 
 .timer-top {
-    width: 336px;
+/*    width: 336px; не надо*/ 
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -409,7 +405,7 @@ div.header__item>div.button-head {
 }
 
 .timer-value > p {
-    width: 336px;
+/*    width: 336px; не надо*/
     display: flex;
     justify-content: space-around;
 }
@@ -692,6 +688,28 @@ ul.list.list-left {
 }
 
 @media all and (max-width: 768px){
+
+    .text-black-huge {
+        font-size: 2.3rem;
+    }
+    .text-black {
+        font-size: 1.3rem;
+    }
+
+    div.wasserman > p.text-small-silver {
+        font-size: 0.9rem;
+    }
+    .list-second>li {
+        font-size: 0.925rem;
+    }
+    .button-link {
+        margin-top: 88px;
+    }
+
+    .list-second>li {
+        font-size: 0.925rem;
+    }
+
     .column-right {
         text-align: center;
     }
@@ -737,6 +755,10 @@ ul.list.list-left {
         transform: rotate(90deg);
     }
 
+    .second-section-wrapper .row-delimiter h3:after {
+        display: none;
+    }
+
     .third-section-header .col-md-6 .column-right {
         text-align: left;
         padding: 0 15px;
@@ -746,6 +768,18 @@ ul.list.list-left {
 }
 
 @media all and (max-width: 480px){
+
+    .number-1 {
+        padding-right: 0;
+    }
+
+    .img-svg-hidden {
+        display: none;
+    }
+
+    .button-link {
+        margin-top: 144px;
+    }
 
     header, footer, section {
         padding: 0 10px !important;
@@ -766,4 +800,8 @@ ul.list.list-left {
     .second-section-header .column-right {
         padding: 70px 0;
     }
+}
+
+.butt {
+    margin-top: 20px;
 }
