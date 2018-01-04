@@ -71,7 +71,7 @@ body {
     top: 0;
 }
 .header__row {
-    margin-bottom: 219px;
+    margin-bottom: 160px;
 }
 .phone-number{
     font-family: acrom800, Tahoma sans-serif;
@@ -986,4 +986,8 @@ body .modal-head h4 {
 
 .enrollment-form.modal-form input:focus {
     outline: none;
+}
+
+.modal-bottom {
+    overflow: scroll;
 }
