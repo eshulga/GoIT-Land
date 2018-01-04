@@ -333,6 +333,13 @@ div.header__item>div.button-head {
     color: black;
 }
 
+@media screen and (max-width: 1024px) {
+    .list-second>li {
+        font-size: 0.925rem;
+    }
+}
+
+
 .list-second>li:nth-child(2) {
     margin-bottom: 0;
 }
