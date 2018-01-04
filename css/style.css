@@ -161,19 +161,22 @@ div.header__item>div.button-head {
 
 .button-head {
     width: 360px;
-    height: 52px;
+    line-height: 52px;
     background-color: #ff6b08;
     border: none;
     color: #fff;
 }
 
 .button-link {
-    font-family: acrom800, Tahoma sans-serif;
-    font-size: 0.875rem;
-    font-weight: bold;
-    color: #fff;
-    line-height: 52px;
+    margin-top: 54px;
 }
+
+@media screen and (max-width: 1024px) {
+    .button-link {
+        margin-top: 88px;
+    }
+}
+
 
 .button-link:hover {
     text-decoration: none;
@@ -278,6 +281,28 @@ div.header__item>div.button-head {
     padding-top: 124px;
     background: url("../img/GO.png") no-repeat;
     background-position: top left;
+}
+
+@media screen and (max-width: 1024px) {
+    div.text-go > h3.text-black-huge {
+        font-size: 1.5rem;
+    }
+    div.text-go > p.text-black {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    div.wasserman > h3.text-black-huge {
+        font-size: 1.5rem;
+    }
+    div.wasserman > p.text-black {
+        font-size: 1rem;
+    }
+    div.wasserman > p.text-small-silver {
+        font-size: 0.9rem;
+    }
 }
 
 .list-second {
