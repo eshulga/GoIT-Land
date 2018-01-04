@@ -755,6 +755,10 @@ ul.list.list-left {
         transform: rotate(90deg);
     }
 
+    .second-section-wrapper .row-delimiter h3:after {
+        display: none;
+    }
+
     .third-section-header .col-md-6 .column-right {
         text-align: left;
         padding: 0 15px;
