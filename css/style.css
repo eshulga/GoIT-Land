@@ -710,6 +710,13 @@ ul.list.list-left {
     padding: 60px;
 }
 
+.rezart-logo {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 @media all and (min-width: 769px) and (max-width: 960px){
 
     .second-section-header .column-right {
