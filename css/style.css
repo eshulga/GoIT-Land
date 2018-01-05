@@ -656,14 +656,21 @@ p.choise-text {
     display: flex;
     justify-content: space-between;
     margin: 15px 0;
-}
-
-.footer-links a {
+    font-family: acromlight, sans-serif;
+    font-weight: 300;
+    line-height: 1;
+    vertical-align: middle;
+    list-style: none;
     font-size: 0.75rem;
     color: #999;
 }
 
-.footer-links a:hover {
+/*.footer-links a {*/
+    /*font-size: 0.75rem;*/
+    /*color: #999;*/
+/*}*/
+
+.footer-links li:hover {
     text-decoration: none;
     color: #fff;
 } 
@@ -691,7 +698,7 @@ ul.list.list-left {
     position: fixed;
     z-index: 1050;
     display: none;
-    overflow: hidden !important;
+    /*overflow: hidden !important;*/
     outline: 0;
     opacity: 1;
     background-color: #fff;
@@ -705,7 +712,6 @@ ul.list.list-left {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: translateX(-50%) translateY(-50%);
-    transition: all .3s;
     transition: all .3s;
     padding: 60px;
 }
@@ -885,11 +891,15 @@ body .modal {
 
 .modal-head h4 {
     color: #000;
-    font-family: AcromExtraBold;
+    font-family: AcromExtraBold,sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 42px;
     text-transform: uppercase;
+}
+
+.modal-head {
+    text-align: center;
 }
 
 body .modal-head h4 {
@@ -900,6 +910,13 @@ body .modal-head h4 {
 
 .modal-content {
     border: none;
+    text-align: justify;
+
+}
+
+.modal-content p {
+    font-family: acromlight, sans-serif;
+    font-size: 1rem;
 }
 
 .enrollment-form.modal-form {
@@ -914,7 +931,7 @@ body .modal-head h4 {
     opacity: .36;
     position: relative;
     color: #fff;
-    font-family: AcromExtraBold;
+    font-family: AcromExtraBold, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
@@ -926,7 +943,7 @@ body .modal-head h4 {
 
 .enrollment-form label input, .enrollment-form label select {
     color: #fff;
-    font-family: acromlight;
+    font-family: acromlight, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -975,7 +992,7 @@ body .modal-head h4 {
     -o-transition: all .5s ease-out;
     -webkit-transition: all .5s ease-out;
     color: #fff;
-    font-family: acromlight;
+    font-family: acromlight, sans-serif;
     font-size: 11px;
     font-weight: 700;
     line-height: 18px;
@@ -990,4 +1007,25 @@ body .modal-head h4 {
 
 .modal-bottom {
     overflow: scroll;
+}
+
+.footer-list li {
+    color: #65666a;
+    font-family: acromlight, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.modal-btn {
+    cursor: pointer;
+}
+
+.modal.large {
+    max-width: 680px;
+    max-height: 550px;
+    overflow-y: scroll;
+    padding: 20px;
 }
