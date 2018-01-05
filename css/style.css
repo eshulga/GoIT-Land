@@ -166,11 +166,11 @@ div.header__item>div.button-head {
     color: #fff;
 }
 
-/*
+
 .button-link {
     margin-top: 54px;
 }
-*/
+
 
 .button-link:hover {
     text-decoration: none;
@@ -784,12 +784,12 @@ ul.list.list-left {
         font-size: 0.925rem;
     }
 
-    /*
+    
     .button-link {
         margin-top: 88px;
     }
 
-    */
+    
 
     .list-second>li {
         font-size: 0.925rem;
@@ -870,9 +870,9 @@ ul.list.list-left {
         display: none;
     }
 
-    /*.button-link {
-        margin-top: 144px;
-    }*/
+    .button-link {
+        margin-top: 0px;
+    }
 
     header, footer, section {
         padding: 0 10px !important;
