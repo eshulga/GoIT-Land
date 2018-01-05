@@ -229,16 +229,33 @@ div.header__item>div.button-head {
     margin-bottom: 34px;
 }
 
+.list-left>li, .list-right>li {
+    list-style: none;
+}
+
+.list-left>li::before {
+    content: "\25a0";
+    color: black;
+    position: absolute;
+    left: -5%;
+}
+
 .list-left {
     margin-left: 22px;
 }
 
 .list-right>li {
     font-family: acromlight, Tahoma sans-serif;
-    list-style: square;
     font-size: 1.125rem;
     color: #6b6f7a;
     margin-bottom: 34px;
+}
+
+.list-right>li::before {
+    content: "\25a0";
+    color: black;
+    position: absolute;
+    left: -5%;
 }
 
 .list-right {
@@ -281,11 +298,6 @@ div.header__item>div.button-head {
     background-position: top left;
 }
 
-@media screen and (max-width: 960px) {
-
-
-}
-
 .list-second {
     counter-reset: section;
     display: flex;
@@ -305,7 +317,7 @@ div.header__item>div.button-head {
 }
 
 .list-second>li:before {
-    content: "\25fc 0" counter(section);
+    content: "\25fc" "0" counter(section);
     counter-increment: section;
     position: absolute;
     top: -27px;
@@ -324,7 +336,6 @@ div.header__item>div.button-head {
 }
 
 .text-black-middle {
-    text-align: center;
     font-size: 2.25rem;
     font-family: acrom800, Tahoma sans-serif;
 }
@@ -388,7 +399,6 @@ div.header__item>div.button-head {
 }
 
 .timer-top {
-/*    width: 336px; не надо*/ 
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -416,7 +426,6 @@ div.header__item>div.button-head {
 }
 
 .timer-value > p {
-/*    width: 336px; не надо*/
     display: flex;
     justify-content: space-around;
 }
@@ -462,7 +471,7 @@ ul.list li:before {
     margin-right: 15px;
     display: inline-block;
     position: relative;
-    font-size: 0.875rem;
+    font-size: 0.7rem;
     font-family: acrom800, Tahoma sans-serif;
     color: #000;
 }
@@ -564,11 +573,11 @@ p.text-subscribe {
 }
 
 .number-1 {
+    display: flex;
+    justify-content: flex-start;
     background: url("../img/Img_3.png") no-repeat;
     background-position: right 67px;
-    padding-right: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px;
 }
 
 .first-section__four {
@@ -687,9 +696,15 @@ p.choise-text {
 } 
 
 section.third-section.third-section-header h2.text-white-huge {
-    font-size: 4.5rem;
+    font-size: 5.5rem;
+    font-family: AcromExtraBold, Tahoma sans-serif;
     padding-top: 150px;
     padding-bottom: 80px;
+}
+
+section.third-section.third-section-header h3.text-white{
+    font-size: 2rem;
+    font-family: AcromExtraBold, Tahoma sans-serif;
 }
 
 ul.list.list-left {
@@ -778,6 +793,18 @@ ul.list.list-left {
 }
 
 @media all and (max-width: 768px){
+
+    .bgc-area-align span.bgc-black.bgc-black__lighter {
+        font-size: 0.8rem;
+    }
+
+    .bgc-area-align {
+        margin-top: 36px;
+    }
+
+    .number-1 {
+        padding-left: 0;
+    }
 
     .text-black-middle {
         font-size: 2.2rem;
@@ -869,6 +896,10 @@ ul.list.list-left {
 }
 
 @media all and (max-width: 480px){
+
+    .number-1 {
+        padding-left: 0;
+    }
 
     h3.text-black-huge,
     .text-black-middle {
@@ -1091,4 +1122,39 @@ body .modal-head h4 {
     max-height: 550px;
     overflow-y: scroll;
     padding: 20px;
+}
+
+.text-inline {
+    display: inline;
+}
+
+.img-line {
+    margin-left: 40px;
+}
+
+.plus-big {
+    font-size: 4.5rem;
+    color: white;
+}
+
+@media all and (max-width: 320px){
+    .img-line {
+        margin-left: 0;
+    }
+
+    section.third-section.third-section-header h3.text-white {
+        font-size: 1.5rem;
+    }
+
+    section.third-section.third-section-header h2.text-white-huge {
+        font-size: 5rem;
+    }
+
+    .list-left>li::before {
+        left: 0;
+    }
+
+    .header::before {
+        left: 0;
+    }
 }
