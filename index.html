@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GoIT</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="row no-gutters header__row">
-                <div class="col-md-9 col-8">
+                <div class="col-6 col-md-9">
                     <a href="http://fe.new.goit.ua/" class="logo"  target="_blank"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
                 </div>
-                <div class="col-md-3 col-4 text-right">
+                <div class="col-6 col-md-3  text-right">
                     <a href="tel:" class="phone-number">+38 (093) 343 21 27</a>
                 </div>
         </div>
         <div class="row no-gutters justify-content-around">
-            <div class="col-lg-6 col-md-12">
+            <div class="col-md-12 col-lg-4">
                 <div class="header__item">
                     <p>/ Хочешь заработать <span>больше денег</span>?</p>
                     <p>/ Хочешь <span>интересную работу</span> с бесконечным карьерным ростом?</p>
-                    <p>/ Давно задумывался о старте в IT, но <span>не знал с чего начать?</span></p>
+                    <p>/ Давно задумывался о старте<br>в IT, но <span>не знал с чего начать?</span></p>
                 </div>
                 <div class="header__item">
                     <p class="text-orange">ТОГДА ДЛЯ ТЕБЯ ОНЛАЙН МАСТЕР-КЛАС</p>
@@ -67,7 +69,7 @@
                         ЕСЛИ ТЫ:
                     </p>
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-sm-5">
                     <ul class="list-left">
                         <li>Осознаешь что живешь только по выходным. Все остальное время ждешь когда они наступят - а жизнь проходит мимо</li>
                         <li>Задолбался ездить в офис в тесной маршрутке или метро, где все лазят по головам, наступают на ноги и воняют</li>
@@ -78,7 +80,7 @@
                         <li>У тебя полно идей, как улучшить процессы на работе, но ты отказался от них давно, потому что начальники смотрят свысока или постоянно напоминают, где твое место</li>
                     </ul>
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-sm-5">
                     <ul class="list-right">
                         <li>Просто хочешь зарабатывать больше денег и чувствовать себя более уверенно</li>
                         <li>Устал приходить на &#171;9:00&#187; утра в нудный офис, где все корчат дружелюбных, а на деле каждый мечтает тебя "подсидеть"</li>
@@ -91,14 +93,16 @@
                         <span class="bgc-black bgc-black__lighter"> ... тогда тебе тоже пришло время размять мозги и расширить кошелек в IT! </span>
                     </div>
                 </div>
-                <div class="col-4">
-                    <p class="text-main__black">Узнай как это возможно для тебя и сделай <span class="text-main__orange">первый шаг к успешной карьере</span> на мастер-классе <span class="text-main__orange">20 января в 20:00 по МСК</span>!</p>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <p class="text-main__black">Узнай как это возможно для тебя и сделай <span class="text-main__orange">первый шаг к успешной карьере</span> на мастер-классе <span class="text-main__orange">20 января в 20:00</span>!</p>
                 </div>
                 <div class="col-1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.99 14" class="img-svg img-right"><defs><style>.cls-1{fill:#ff6b08;fill-rule:evenodd;}</style></defs><title>arrow_right</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><polygon class="cls-1" points="36.99 7 25.01 0 25.01 4.99 0 4.99 0 8.99 25.01 8.99 25.01 14 36.99 7"/></g></g></svg>
                 </div>
-                <div class="col-5">
-                    <button type="button" class="button-head button-link" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                <div class="col-12 col-md-12 col-lg-5">
+                    <div class="button-wrapper">
+                        <button type="button" class="button-head button-link" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -159,15 +163,15 @@
                     <span class="bgc-black bgc-black__lighter"> &#8210; стать разработчиком. </span>
                     <p class="text-small-silver text-small-silver__margin">Это специалист, который делает красивые сайты, интересные приложения, и всякие &#171;клувые штуки&#187;, за которые хорошо платят... при этом стать разработчиком может каждый, у кого была в школе 4ка по математике .</p>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <div class="bgc-area-align">
                         <span class="bgc-black bgc-black__lighter">Участие <span>БЕСПЛАТНО</span> для первых <span class="bgc-black bgc-black__lighter">613 зарегистрировавшихся.</span> <span class="bgc-black bgc-black__lighter">Для остальных - $93.</span></span>
                     </div>
                 </div>
                 <div class="col-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.99 14" class="img-svg img-svg-hidden"><defs><style>.cls-1{fill:#ff6b08;fill-rule:evenodd;}</style></defs><title>arrow_right</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><polygon class="cls-1" points="36.99 7 25.01 0 25.01 4.99 0 4.99 0 8.99 25.01 8.99 25.01 14 36.99 7"/></g></g></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.99 14" class="img-svg img-svg-hidden"><defs><style>.cls-1{fill:#ff6b08;fill-rule:evenodd;}</style></defs><title>arrow_right</title><g id="layer_2" data-name="Layer_2"><g id="Layer_1_2" data-name="Layer_1"><polygon class="cls-1" points="36.99 7 25.01 0 25.01 4.99 0 4.99 0 8.99 25.01 8.99 25.01 14 36.99 7"/></g></g></svg>
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-sm-5">
                     <div class="timer-top">
                         <p class="text-small-silver day">дн</p>
                         <p class="text-small-silver">час</p>
@@ -178,9 +182,11 @@
                         <p class="text-black-timer">
                             <span class="days">00</span>:<span class="hours">00</span>:<span class="minutes">00</span>:<span class="sec">00</span></p>
                     </div>
-                    <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                    <div class="button-wrapper">
+                        <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">"УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ"</button>
+                    </div>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-12 col-lg-8">
                     <div class="text-last">
                     <h4 class="text-black-middle">[ _Если ты можешь найти сумму ячеек в Excel, то при должной мотивации <span class="text-orange-middle"> легко сможешь стать разработчиком с хорошим доходом! </span>_ ]</h4>
                     </div>
@@ -262,7 +268,7 @@
                         <li>Средний чек его студентов сразу после выпуска — $600</li>
                     </ul>
                 </div>
-                <div class="col-md-12 col-lg-6 d-none d-lg-block"><img src="img/repeta.jpg" class="img-fluid"></div>
+                <div class="col-md-12 col-lg-6 d-none d-lg-block"><img src="img/repeta.jpg" class="img-fluid" alt="A.Repeta"></div>
             </div>
             <div class="row no-gutters">
                 <div class="col-md-12 col-lg-6">
@@ -316,10 +322,10 @@
                 </div>
             </div>
             <div class="row no-gutters">
-                    <div class="col-md-6 col-xs-6">
+                    <div class="col-6 ">
                         <a href="http://fe.new.goit.ua/" class="logo logo-bottom"  target="_blank"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
                     </div>
-                    <div class="col-md-6 col-xs-6 text-md-right">
+                    <div class="col-6 text-right">
                         <a href="tel:" class="phone-number">+38 (093) 343 21 27</a>
                     </div>
             </div>
@@ -413,8 +419,9 @@
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>-->
+<script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

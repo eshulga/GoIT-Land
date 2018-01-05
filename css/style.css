@@ -93,6 +93,10 @@ body {
     margin-bottom: 0;
 }
 
+.header__item.header__item--third .text-white {
+    font-family: Acromlight, Tahoma sans-serif;
+}
+
 .logo {
     display: block;
     width: 100px;
@@ -148,7 +152,7 @@ p {
 span.bgc-white {
     padding: 2px;
     line-height: 2.2;
-    font-family: acrom800, Tahoma sans-serif;
+    font-family: Acromlight, Tahoma sans-serif;
     color: #000;
     background-color: #fff;
     font-size: 1.125rem;
@@ -166,18 +170,25 @@ div.header__item>div.button-head {
     color: #fff;
 }
 
+
 .button-link {
     margin-top: 54px;
 }
 
+
 .button-link:hover {
     text-decoration: none;
     color: white;
-
+    cursor: pointer;
 }
 
 .button-head:hover {
     background-color: #e3570c;
+    cursor: pointer;
+}
+
+.button-link:focus, .button-head:focus {
+    outline: none;
 }
 
 .wrapper-main {
@@ -768,6 +779,10 @@ ul.list.list-left {
 
 @media all and (max-width: 768px){
 
+    .text-black-middle {
+        font-size: 2.2rem;
+    }
+
     .text-black-huge {
         font-size: 2.3rem;
     }
@@ -781,16 +796,24 @@ ul.list.list-left {
     .list-second>li {
         font-size: 0.925rem;
     }
+
+    
     .button-link {
         margin-top: 88px;
     }
+
+    
 
     .list-second>li {
         font-size: 0.925rem;
     }
 
-    .column-right {
+    .column-right, .wrapper-main__first .button-wrapper {
         text-align: center;
+    }
+
+    .wrapper-main__first .img-svg.img-right {
+        transform: rotate(90deg);
     }
 
     .text-white-huge {
@@ -815,7 +838,7 @@ ul.list.list-left {
     }
 
     .choise-wrapper {
-        padding-bottom: 70px;
+        padding-bottom: 40px;
     }
 
     .choise-text:after, .second-section-wrapper .row-delimiter h3:after {
@@ -830,9 +853,8 @@ ul.list.list-left {
         left: 50%;
         background-image: url(../img/arrow.png);
         background-repeat: no-repeat;
-        transform: translate(0, -50%);
-        transform: rotate(90deg);
-    }
+        transform: translate(-50%, -50%) rotate(90deg);
+     }
 
     .third-section-header .col-md-6 .column-right {
         text-align: left;
@@ -848,6 +870,23 @@ ul.list.list-left {
 
 @media all and (max-width: 480px){
 
+    h3.text-black-huge,
+    .text-black-middle {
+        font-size: 2rem;
+    }
+
+    button.button-head {
+        font-size: .8rem;
+    }
+
+    ul.footer-links {
+        flex-wrap: wrap;
+    }
+
+    .wrapper-main {
+        padding-top: 0;
+    }
+
     .number-1 {
         padding-right: 0;
     }
@@ -857,7 +896,7 @@ ul.list.list-left {
     }
 
     .button-link {
-        margin-top: 144px;
+        margin-top: 0px;
     }
 
     header, footer, section {
@@ -878,6 +917,30 @@ ul.list.list-left {
 
     .second-section-header .column-right {
         padding: 70px 0;
+    }
+
+    .list-second {
+        height: auto;
+    }
+
+    .list-second br {
+        display: none;
+    }
+
+    .list-second>li:nth-child(2) {
+        margin-bottom: 58px;
+    }
+
+    .timer-top {
+        margin-top: 20px;
+    }
+
+    .first-section__four .button-wrapper, .first-section__one .button-wrapper {
+        text-align: center;
+    }
+
+    .first-section__two {
+        padding-top: 50px !important;
     }
 }
 
