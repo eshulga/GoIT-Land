@@ -1194,6 +1194,9 @@ body .modal-head h4 {
         text-align: center;
     }
 
+    .header__item {
+        text-align: center;
+    }
 }
 
 @media all and (max-width: 1024px) and (min-width: 960px) {
