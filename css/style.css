@@ -376,6 +376,7 @@ div.header__item>div.button-head {
 
 .bgc-black__lighter {
     font-family: acromlight, Tahoma sans-serif;
+    line-height: 35px;
 }
 
 .wrapper-main__seventh {
@@ -1193,4 +1194,23 @@ body .modal-head h4 {
         text-align: center;
     }
 
+}
+
+@media all and (max-width: 1024px) and (min-width: 960px) {
+    .column-right {
+        padding: 0 74px;
+    }
+
+    .second-section-wrapper .button-head {
+        margin-top: 30px;
+    }
+
+    .second-section-header .column-right {
+        padding: 270px 74px 0;
+    }
+}
+
+.img-wasserman {
+    display: block;
+    margin-left: auto;
 }

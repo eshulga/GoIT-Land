@@ -1,4 +1,4 @@
-var deadline = new Date(2018, 0, 15, 20, 00);
+var deadline = new Date(2018, 0, 20, 20, 00);
 
 function timer() {
     setInterval(function () {
