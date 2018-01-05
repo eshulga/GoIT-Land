@@ -1154,6 +1154,10 @@ body .modal-head h4 {
         left: 0;
     }
 
+    .list-right>li::before {
+        left: 0;
+    }
+
     .header::before {
         left: 0;
     }
