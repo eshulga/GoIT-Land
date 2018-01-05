@@ -1161,4 +1161,36 @@ body .modal-head h4 {
     .header::before {
         left: 0;
     }
+
+    .wrapper-main__first .img-svg.img-right {
+        display: none;
+    }
+
+    .bgc-area {
+        text-align: center;
+    }
+
+    .text-main__area {
+        text-align: center;
+    }
+
+    .text-last {
+        text-align: center;
+    }
+    .text-middle__area {
+        text-align: center;
+    }
+
+    .wasserman {
+        text-align: center;
+    }
+
+    .text-go {
+        text-align: center;
+    }
+
+    .text-second-section_firstrow {
+        text-align: center;
+    }
+
 }
