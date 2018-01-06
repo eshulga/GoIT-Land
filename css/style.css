@@ -727,7 +727,7 @@ ul.list.list-left {
     display: none;
     /*overflow: hidden !important;*/
     outline: 0;
-    opacity: 1;
+    opacity: 0;
     background-color: #fff;
     text-align: center;
     top: 50%;
@@ -739,10 +739,12 @@ ul.list.list-left {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: translateX(-50%) translateY(-50%);
-    transition: all .3s;
+    transition: all .8s;
     padding: 60px;
 }
-
+.show {
+    opacity: 1;
+}
 .rezart-logo {
     height: 100%;
     display: flex;
@@ -1112,6 +1114,7 @@ body .modal-head h4 {
     text-align: center;
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 
 .registration-btn {
