@@ -287,7 +287,7 @@ div.header__item>div.button-head {
 .text-main__orange {
     font-family: acrom800, Tahoma sans-serif;
     color: #ff6b08;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: bold;
 }
 
@@ -1264,4 +1264,13 @@ body .modal-head h4 {
         margin: 0;
         margin-left: auto;
     }
+}
+
+b {
+    font-weight: 900;
+    font-family: AcromExtraBold, sans-serif;
+}
+
+.text-middle__area {
+    margin-bottom: 40px;
 }
