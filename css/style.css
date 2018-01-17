@@ -77,13 +77,13 @@ body {
 .phone-number{
     font-family: acrom800, Tahoma sans-serif;
     text-decoration: none;
-    color: #ffe4e4;
+    color: white;
     font-size: 0.875rem;
     font-weight: bold;
 }
 
 .header__item {
-    margin-bottom: 70px;
+    margin-bottom: 45px;
 }
 
 .header__item--third {
@@ -593,9 +593,11 @@ p.text-subscribe {
     display: flex;
     justify-content: flex-start;
     background: url("../img/Img_3.png") no-repeat;
-    background-position: right 20px;
-    padding: 80px 100px;
+    background-position: 572px 20px;
+    padding-left: 0;
     padding-top: 60px;
+    padding-bottom: 100px;
+    padding-right: 400px;
 }
 
 .first-section__four {
@@ -1357,7 +1359,8 @@ b {
 }
 
 .header__item>div.timer-bottom {
-    margin-top: 0;
+    margin-top: -10px;
+    margin-bottom: 34px;
 }
 
 .text-white-timer {
@@ -1384,4 +1387,20 @@ img.arrow-down {
     position: absolute;
     top: 43%;
     right: 0;
+}
+
+.text-white-huge__margin {
+    margin-bottom: 32px;
+}
+
+.button-head__margin {
+    margin-top: 50px;
+}
+
+.text-color-unique {
+    color: #e0e0e0;
+}
+
+.section-unique {
+    margin-bottom: 80px;
 }
