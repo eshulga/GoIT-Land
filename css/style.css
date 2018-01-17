@@ -72,7 +72,7 @@ body {
     right: 0;
 }
 .header__row {
-    margin-bottom: 160px;
+    margin-bottom: 70px;
 }
 .phone-number{
     font-family: acrom800, Tahoma sans-serif;
@@ -738,7 +738,7 @@ section.second-section-wrapper.second-section-wrapper--second .column-right {
 section.third-section.third-section-header h2.text-white-huge {
     font-size: 5.5rem;
     font-family: AcromExtraBold, Tahoma sans-serif;
-    padding-top: 150px;
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
