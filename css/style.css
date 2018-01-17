@@ -239,6 +239,10 @@ div.header__item>div.button-head {
     margin-bottom: 34px;
 }
 
+.second-section-header ul.list li {
+    color: #e0e0e0;
+}
+
 .list-left>li, .list-right>li {
     list-style: none;
 }
@@ -535,7 +539,7 @@ ul.list.list-left li:nth-child(even) {
 }
 
 .second-section-header ul.list li:before {
-    color: #959595;
+    color: #e0e0e0;
 }
 
 .second-section-header .column-left {
@@ -616,17 +620,18 @@ p.text-subscribe {
     
 }
 
-p.choise-text {
+.third-section-header p.choise-text {
+    padding-bottom: 15px;
     display: block;
     position: relative;
-    font-size: 1.875rem;
-    text-align: center;
-    color: #ff6b08;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #ff6b08 !important;
     margin: 0;
-    line-height: 1.875rem;
+    line-height: 1.5rem;
 }
 
-.choise-text:before {
+/* .choise-text:before {
     content: '';
     display: block;
     min-width: 50px;
@@ -636,10 +641,21 @@ p.choise-text {
     left: 70px;
     background-image: url(../img/shape.png);
     background-repeat: no-repeat;
-}
+} */
 
 .second-section-wrapper .button-head {
     margin-top: 15px;
+}
+
+section.second-section-wrapper.second-section-wrapper--second .column-right {
+    padding-right: 0;
+}
+
+.second-section-header .button-head,
+.second-section-wrapper .button-head,
+.third-section-header .button-head {
+    padding: 20px 40px;
+    width: 100%;
 }
 
 .second-section-wrapper .row-delimiter h3 {
@@ -660,22 +676,26 @@ p.choise-text {
     transform: translate(0, -50%);
 }
 
-.choise-text:after {
+.timer-value.bottom:after {
     content: '';
     min-width: 50px;
     min-height: 15px;
     display: block;
     position: absolute;
-    top: 50%;
+    top: 31%;
     right: -15px;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
-    transform: translate(0, -50%);
+    transform: translate(0, 0);
 }
 
 .choise-wrapper {
     padding-top: 70px;
-    padding-bottom: 180px;
+    padding-bottom: 90px;
+}
+
+.choise-wrapper.right {
+    padding-top: 45px;
 }
 
 .logo-bottom {
@@ -717,7 +737,7 @@ section.third-section.third-section-header h2.text-white-huge {
 }
 
 section.third-section.third-section-header h3.text-white{
-    font-size: 2rem;
+    font-size: 1.875rem;
     font-family: AcromExtraBold, Tahoma sans-serif;
 }
 
@@ -763,6 +783,28 @@ ul.list.list-left {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+span.present-ico {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/bonus.png);
+    background-repeat: no-repeat;
+}
+
+.third-section-header p:not(.text-white-timer) {
+    color: #e0e0e0;
+    font-family: acromlight, Tahoma sans-serif;
+}
+
+.third-section-header .timer-top.timer-bottom {
+    margin-top: 0;
+    max-width: 400px;
+}
+
+.timer-value.bottom {
+    max-width: 400px;
 }
 
 @media all and (min-width: 769px) and (max-width: 960px){
@@ -1202,6 +1244,12 @@ body .modal-head h4 {
 }
 
 @media all and (max-width: 320px){
+
+    button.button-head,
+    .second-section-header .button-head,
+    .second-section-wrapper .button-head {
+        padding: 20px;
+    }
 
     .img-line {
         margin-left: 0;

@@ -26,6 +26,18 @@ function timer() {
         document.querySelector('.minutes').textContent = minutesLeft;
         document.querySelector('.sec').textContent = secondsLeft;
         document.querySelector('.msec').textContent = msec;
+
+        document.querySelector('.midle .days').textContent = daysLeft;
+        document.querySelector('.midle .hours').textContent = hoursLeft;
+        document.querySelector('.midle .minutes').textContent = minutesLeft;
+        document.querySelector('.midle .sec').textContent = secondsLeft;
+        document.querySelector('.midle .msec').textContent = msec;
+
+        document.querySelector('.bottom .days').textContent = daysLeft;
+        document.querySelector('.bottom .hours').textContent = hoursLeft;
+        document.querySelector('.bottom .minutes').textContent = minutesLeft;
+        document.querySelector('.bottom .sec').textContent = secondsLeft;
+        document.querySelector('.bottom .msec').textContent = msec;
     }, 100)
 }
 
