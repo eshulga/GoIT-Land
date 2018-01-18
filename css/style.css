@@ -1442,3 +1442,7 @@ body .modal-head h4 {
         margin-left: auto;
     }
 }
+
+.text-align-center {
+    text-align: center;
+}
