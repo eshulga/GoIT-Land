@@ -771,10 +771,9 @@ ul.list.list-left {
     text-align: center;
     top: 50%;
     left: 50%;
-    width: 50%;
-    max-width: 458px;
+    width: 55%;
     min-width: 300px;
-    height: min-content;
+    height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: translateX(-50%) translateY(-50%);
@@ -953,6 +952,10 @@ img.arrow-down {
 
 @media all and (max-width: 768px){
 
+    .modal {
+        width: 100%;
+    }
+
     .header {
         padding-bottom: 0;
     }
@@ -1109,6 +1112,10 @@ img.arrow-down {
 
 @media all and (max-width: 480px){
 
+     .modal {
+        width: 100%;
+    }
+
     .number-1 {
         padding-left: 0;
     }
@@ -1203,7 +1210,7 @@ img.arrow-down {
 }
 
 body .modal {
-    padding: 20px !important;
+    padding: 47px 100px !important;
 }
 
 .modal-head h4 {
@@ -1359,6 +1366,10 @@ body .modal-head h4 {
 
 @media all and (max-width: 320px){
 
+    .modal {
+        width: 100%;
+    }
+
     button.button-head,
     .second-section-header .button-head,
     .second-section-wrapper .button-head,
@@ -1456,9 +1467,16 @@ body .modal-head h4 {
 }
 
 @media all and (min-width: 1024px) {
+
     .img-wasserman {
         margin: 0;
         margin-left: auto;
+    }
+}
+
+@media all and (max-width: 1024px){
+    .modal {
+        width: 90%;
     }
 }
 
@@ -1468,4 +1486,134 @@ body .modal-head h4 {
 
 .text-black-add {
     color: #000;
+}
+
+#myProgress {
+    position: relative;
+    background-color: #f2f2f2;
+    margin-bottom: 34px;
+}
+
+#all {
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-style: normal;
+}
+
+#myBar {
+    height: 30px;
+    background-image: -webkit-linear-gradient(90deg,#029e52 0,#00bc61 100%);
+}
+
+#modal_4 h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #9b9b9b;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+#modal_4 p {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#modal_4 p input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 300px;
+    border-bottom: 2px solid #ff6b08;
+    outline: 0;
+    font-size: 20px;
+    font-family: batman;
+    font-weight: 500;
+    padding-left: 6px;
+    margin-bottom: 0;
+}
+
+.submit-wrap {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.submit-wrap button {
+    height: 80px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    width: 450px;
+    max-width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: batman;
+    letter-spacing: .025em;
+    background-color: #ff6b08;
+    color: #fff;
+    font-family: acrom800, Tahoma sans-serif;
+}
+
+#modal_4 .info {
+    font-size: 1rem;
+    color: #9b9b9b;
+    padding: 28px 0 40px;
+    text-align: center;
+}
+
+button.mfp-close {
+    overflow: visible;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    outline: 0;
+    padding: 0;
+    z-index: 1046;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: #333;
+}
+
+.mfp-close {
+    opacity: 1;
+    font-weight: 700;
+    right: -5px;
+    top: -5px;
+    font-size: 38px;
+}
+
+.mfp-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: .65;
+    padding: 0 0 18px 10px;
+    color: #000;
+    font-style: normal;
+    font-size: 44px;
+    font-family: Arial,Baskerville,monospace;
 }

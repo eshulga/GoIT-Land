@@ -33,7 +33,7 @@
                     <p class="text-color-unique">[ для тех, кто давно хотел начать зарабатывать в IT, но не знал с чего начать ]</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-8 offset-lg-1 offset-md-2">
+            <div class="col-lg-4 col-md-8 offset-lg-1 offset-md-0">
                 <div class="header__item">
                     <p class="text-white-smaller">30 ЯНВАРЯ 2018 В 20:00 по КИЕВУ</p>
                     <p class="text-white__small">НАЧАЛО ЧЕРЕЗ:</p>
@@ -370,26 +370,67 @@
         </div>
     </section>
 
-    <div class="modal" id="modal_4">
+        <!-- <div class="modal" id="modal_4">
             <div class="popup__close icon-cancel" data-dismiss="modal" aria-label="Close"></div>
-            <div class="modal-head">
-              <h4>[УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ]</h4>
+            <div id="myProgress">
+                <span id="all" style="color: rgb(255, 255, 255);"><i id="per">80</i>% готово</span>
+                <div id="myBar" style="width: 80%;"></div>
             </div>
-            <div class="modal-content">
-              <form action="#" class="modal-form enrollment-form" data-form="modal-form">
-                <label for="name">Имя
-                        <input type="text" name="name" placeholder="Как вас зовут?" id="name" required="">
-                      </label>
-                <label for="phone">Телефон
-                          <input type="tel" name="phone" placeholder="Ваш номер телефона" id="phone" required="">
-                      </label>
-                <label for="email">E-mail
-                          <input type="email" name="email" placeholder="Адрес электронного ящика" id="email" required="">
-                      </label>
-              <button type="submit" class="registration-btn submit">Принять участие</button>
-              </form>
+            <h4>Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе.</h4>
+           
+        </div> -->
+        <div class="mfp-content">
+            <form id="modal_4" name="registration" class="modal" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post" novalidate="novalidate">
+            <div id="myProgress">
+                <span id="all" style="color: rgb(255, 255, 255);"><i id="per">80</i>% готово</span>
+                <div id="myBar" style="width: 80%;"></div>
             </div>
-          </div>
+            <h4>Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе.</h4>
+            
+            <p>Да, я</p>
+            <p style="color: #ff6b08;">
+                <label for="focus">(введите ваше имя)</label>
+                <input id="focus" type="text" name="first_name">
+            </p>
+            <p>хочу участвовать в Онлайн Мастер-Классе</p>
+            <br>
+            <p>Вышлите мне доступ на email</p>
+            <p style="color: #ff6b08;">
+                <label for="email">(впишите свой E-mail)</label>
+                <input id="email" type="text" name="email">
+            </p>
+            <p>Чтобы я 100% не забыл, пришлите мне <br>СМС-напоминание на этот моб. тел </p>
+            <p style="color: #ff6b08;">
+                <label for="tel">(введите номер)</label>
+                <input id="tel" type="text" name="custom_cell_phone">
+                <br>
+                <label id="tel-error" class="error" for="tel" style="display: inline;">Только цифры +380...</label>
+                
+            </p>
+            
+            <!-- <input name="custom_utm_campaign" type="hidden" value=""><br>
+            <input name="custom_utm_medium" type="hidden" value=""><br>
+            <input name="custom_utm_source" type="hidden" value=""><br>
+            <input name="custom_utm_term" type="hidden" value=""><br>
+            <input name="custom_utm_content" type="hidden" value=""><br>
+            <input name="product_id" type="hidden" value="2976508000000268045"><br>
+            <input name="product_name" type="hidden" value="Реальные деньги в криптовалютах"><br>
+        
+            <input type="hidden" name="campaign_token" value="n96Ml">
+        
+            <input type="hidden" name="thankyou_url" value="http://cryptodnk.com/thx_page/">
+            Forward form data to your page (optional)
+            <input type="hidden" name="forward_data" value="GET">
+         -->
+            
+            <div class="submit-wrap">
+                <button type="submit">Участвовать в Мастер-Классе</button>
+            </div>
+        
+            <p class="info">Мы ненавидим СПАМ и обещаем <br>не передавать твой Email 3-м лицам.</p>
+        <button title="Close (Esc)" type="button" class="mfp-close popup__close icon-cancel" data-dismiss="modal" aria-label="Close">×</button>
+    </form>
+</div>
 </main>
 <footer class="footer">
     <div class="container">
