@@ -1465,3 +1465,7 @@ body .modal-head h4 {
 .text-align-center {
     text-align: center;
 }
+
+.text-black-add {
+    color: #000;
+}
