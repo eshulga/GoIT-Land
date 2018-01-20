@@ -876,6 +876,25 @@ img.arrow-down {
     color: #e0e0e0;
 }
 
+.header-cenetered {
+    text-align: center;
+}
+
+.repeta-foto {
+    max-height: 350px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.foto-wrap {
+    position: relative;
+    padding-top: 65px;
+}
+
+.header-cenetered h3 {
+    color: #ff6b08;
+}
 
 @media all and (min-width: 769px) and (max-width: 960px){
 
