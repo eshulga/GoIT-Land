@@ -637,6 +637,10 @@ p.text-subscribe {
     line-height: 1.5rem;
 }
 
+body .modal {
+    padding: 47px 100px !important;
+}
+
 /* .choise-text:before {
     content: '';
     display: block;
@@ -1112,6 +1116,10 @@ img.arrow-down {
 
 @media all and (max-width: 480px){
 
+    body .modal {
+        padding: 15px !important;
+    }
+
      .modal {
         width: 100%;
     }
@@ -1207,10 +1215,6 @@ img.arrow-down {
 
 .butt {
     margin-top: 20px;
-}
-
-body .modal {
-    padding: 47px 100px !important;
 }
 
 .modal-head h4 {
@@ -1366,8 +1370,20 @@ body .modal-head h4 {
 
 @media all and (max-width: 320px){
 
+    #myProgress {
+        margin-top: 34px;
+    }
+
+    #modal_4 p input {
+        width: 275px !important;
+    }
+
     .modal {
         width: 100%;
+    }
+
+    body .modal {
+        padding: 10px !important;
     }
 
     button.button-head,
@@ -1520,10 +1536,10 @@ body .modal-head h4 {
 }
 
 #modal_4 p {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 500;
     color: #000;
-    line-height: 1.5;
+    line-height: 30px;
     text-align: left;
     margin-bottom: 0;
 }
