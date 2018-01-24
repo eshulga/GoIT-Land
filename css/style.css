@@ -1637,3 +1637,7 @@ button.mfp-close {
 .submit-wrap button:hover {
     cursor: pointer;
 }
+
+.column-left>ul.list>li {
+    display: block;
+}
