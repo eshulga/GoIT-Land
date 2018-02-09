@@ -1,4 +1,4 @@
-var deadline = new Date(2018, 0, 30, 20, 00);
+var deadline = new Date(2018, 1, 13, 20, 00);
 
 function timer() {
     setInterval(function () {
@@ -38,7 +38,7 @@ function timer() {
         document.querySelector('.bottom .minutes').textContent = minutesLeft;
         document.querySelector('.bottom .sec').textContent = secondsLeft;
         document.querySelector('.bottom .msec').textContent = msec;
-    }, 100)
+    }, 10)
 }
 
 timer();
