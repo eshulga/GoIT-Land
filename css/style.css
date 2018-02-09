@@ -1641,3 +1641,10 @@ button.mfp-close {
 .column-left>ul.list>li {
     display: block;
 }
+
+.anton-foto {
+    max-height: 350px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
