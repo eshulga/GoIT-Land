@@ -9,6 +9,29 @@
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1779006479018672');
+        fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1779006479018672&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Facebook Pixel Code -->
+      
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56034183-4"></script> <script>
+      window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+      gtag('config', 'UA-56034183-4'); </script>
+      <!-- End Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body>
 <header class="header">
@@ -407,8 +430,8 @@
            
         </div> -->
         <div class="mfp-content">
-            <form id="modal_4" name="registration" class="modal" action="success/success.html" accept-charset="utf-8" method="post" novalidate="novalidate">
-            <div id="myProgress">
+            <form id="modal_4" class="modal" action="#" accept-charset="utf-8" method="post">
+                <div id="myProgress">
                 <span id="all" style="color: rgb(255, 255, 255);"><i id="per">80</i>% готово</span>
                 <div id="myBar" style="width: 80%;"></div>
             </div>
@@ -435,20 +458,25 @@
                 
             </p>
             
-            <!-- <input name="custom_utm_campaign" type="hidden" value=""><br>
-            <input name="custom_utm_medium" type="hidden" value=""><br>
-            <input name="custom_utm_source" type="hidden" value=""><br>
-            <input name="custom_utm_term" type="hidden" value=""><br>
-            <input name="custom_utm_content" type="hidden" value=""><br>
-            <input name="product_id" type="hidden" value="2976508000000268045"><br>
-            <input name="product_name" type="hidden" value="Реальные деньги в криптовалютах"><br>
-        
-            <input type="hidden" name="campaign_token" value="n96Ml">
-        
-            <input type="hidden" name="thankyou_url" value="http://cryptodnk.com/thx_page/">
-            Forward form data to your page (optional)
-            <input type="hidden" name="forward_data" value="GET">
-         -->
+            <!-- crm input -->
+            <input type="hidden" class="registrationType" name="registrationType" value="default_registration">
+            <input type="hidden" class="orderType" name="orderType" value="order-no">
+            <input type="hidden" class="number_of_button" name="number_of_button" value="1">
+            <input type="hidden" name="utm_source" value="">
+            <input type="hidden" name="utm_campaign" value="">
+            <input type="hidden" name="utm_medium" value="">
+            <input type="hidden" name="utm_term" value="">
+            <input type="hidden" name="utm_content" value="">
+            <input type="hidden" name="lead_price" class="lead_price" value="">
+            <input type="hidden" name="click_id" value="">
+            <input type="hidden" name="affiliate_id" value="">
+            <input type="hidden" name="page_url" value="">
+            <input type="hidden" name="ref" value="">
+            <input type="hidden" name="lend" value="Webinar_Front-End/FullStack">
+            <input type="hidden" name="ip_address" value="">
+            <input type="hidden" name="city" value="">
+            <input type="hidden" class="gclid_field" name="gclid_field" value="">
+
             
             <div class="submit-wrap">
                 <button type="submit">Участвовать в Мастер-Классе</button>
