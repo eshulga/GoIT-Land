@@ -9,29 +9,29 @@
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1779006479018672');
-        fbq('track', 'PageView');
-      </script>
-      <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1779006479018672&ev=PageView&noscript=1"
-      /></noscript>
-      <!-- End Facebook Pixel Code -->
-      
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56034183-4"></script> <script>
       window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
       gtag('config', 'UA-56034183-4'); </script>
       <!-- End Global site tag (gtag.js) - Google Analytics -->
+	<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1852861408266937');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1852861408266937&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 <body>
 <header class="header">
@@ -134,7 +134,7 @@
                 <div class="col-12 col-md-12 col-lg-5">
                     <div class="button-wrapper">
                         <button type="button" class="button-head button-link" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -297,7 +297,7 @@
                         <h2 class="text-black-huge">[ Тебя за руку в профессию введут_  ]</h2>
                         <h3 style="color:black">Эксперты в разработке сайтов</h3>
                         <br>
-                        <h3>Александр Репета</h3>  
+                        <h3>Александр Репета</h3>
                     </div>
                 </div>
             </div>
@@ -320,7 +320,7 @@
             <div class="row no-gutter">
                     <div class="col-12">
                         <div class="header-cenetered">
-                            <h3>Антон Черный</h3>  
+                            <h3>Антон Черный</h3>
                         </div>
                     </div>
                 </div>
@@ -427,7 +427,7 @@
                 <div id="myBar" style="width: 80%;"></div>
             </div>
             <h4>Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе.</h4>
-           
+
         </div> -->
         <div class="mfp-content">
             <form id="modal_4" class="modal" action="#" accept-charset="utf-8" method="post">
@@ -436,11 +436,11 @@
                 <div id="myBar" style="width: 80%;"></div>
             </div>
             <h4>Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе.</h4>
-            
+
             <p>Да, я</p>
             <p style="color: #ff6b08;">
                 <label for="focus">(введите ваше имя)</label>
-                <input id="focus" type="text" name="first_name" autofocus>
+                <input id="focus" type="text" name="name" autofocus>
             </p>
             <p>хочу участвовать в Онлайн Мастер-Классе</p>
             <br>
@@ -452,12 +452,12 @@
             <p>Чтобы я 100% не забыл, пришлите мне <br>СМС-напоминание на этот моб. тел </p>
             <p style="color: #ff6b08;">
                 <label for="tel">(введите номер)</label>
-                <input id="tel" type="text" name="custom_cell_phone">
+                <input id="tel" type="tel" name="phone">
                 <br>
                 <label id="tel-error" class="error" for="tel" style="display: inline;">Только цифры +380...</label>
-                
+
             </p>
-            
+
             <!-- crm input -->
             <input type="hidden" class="registrationType" name="registrationType" value="default_registration">
             <input type="hidden" class="orderType" name="orderType" value="order-no">
@@ -477,13 +477,13 @@
             <input type="hidden" name="city" value="">
             <input type="hidden" class="gclid_field" name="gclid_field" value="">
 
-            
+
             <div class="submit-wrap">
                 <button type="submit">Участвовать в Мастер-Классе</button>
             </div>
-        
+
             <p class="info">Мы ненавидим СПАМ и обещаем <br>не передавать твой Email 3-м лицам.</p>
-        <button title="Close (Esc)" type="button" class="mfp-close popup__close icon-cancel" data-dismiss="modal" aria-label="Close">×</button>
+        <button title="Close (Esc)" type="button" class="mfp-close popup__close icon-cancel" data-dismiss="modal" aria-label="Close"></button>
     </form>
 </div>
 </main>
@@ -559,6 +559,9 @@
 <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
+
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
